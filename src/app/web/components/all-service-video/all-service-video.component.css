@@ -1,0 +1,196 @@
+
+/* 16. Class */
+.class-area {
+   background: #f1f8ff;
+   position: relative;
+   z-index: 2;
+ }
+ .class-area .class-content {
+   padding-left: 75px;
+ }
+ @media (min-width: 1200px) and (max-width: 1500px) {
+   .class-area .class-content {
+     padding-left: 0;
+   }
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .class-area .class-content {
+     padding-left: 0;
+   }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .class-area .class-content {
+     padding-left: 0;
+   }
+ }
+ @media (max-width: 767px) {
+   .class-area .class-content {
+     padding-left: 0;
+   }
+ }
+ .class-area .class-content h3 {
+   color: #29282d;
+   font-size: 20px;
+   line-height: 50px;
+   font-weight: bold;
+   margin-bottom: 8px;
+ }
+ @media (min-width: 1200px) and (max-width: 1500px) {
+   .class-area .class-content h3 {
+     font-size: 30px;
+     line-height: 35px;
+   }
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .class-area .class-content h3 {
+     font-size: 30px;
+     line-height: 35px;
+   }
+ }
+ .class-area .class-content h3 span {
+   color: #e63a34;
+ }
+ .class-area .class-content p {
+   color: #8e8e8e;
+   font-size: 16px;
+   line-height: 28px;
+ }
+ .class-area .class-video {
+   position: absolute;
+   width: 50%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .class-area .class-video {
+     width: 40%;
+   }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .class-area .class-video {
+     width: 100%;
+     position: inherit;
+     height: 400px;
+   }
+ }
+ @media (max-width: 767px) {
+   .class-area .class-video {
+     width: 100%;
+     position: inherit;
+     height: 400px;
+   }
+ }
+ .class-area .class-video:before {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   background-image:url("../../../../assets/img/img-services/servizi_bkg_05.png");
+   background-size: 100% 468px;
+   background-repeat: no-repeat;
+
+   z-index: 2;
+ }
+ .class-area .class-video img {
+   width: 100%;
+  
+   object-fit: cover;
+ }
+ .class-area .class-video .video-hover {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+  
+   transform: translate(-50%, -50%);
+   width: 100%;
+   z-index: 3;
+   text-align: center;
+ }
+ .class-area .class-video .video-hover a {
+   position: relative;
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   line-height: 100px;
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   background: #B125EC;
+   border-radius: 50%;
+   background-image: -moz-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+   background-image: -webkit-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+   background-image: -ms-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .class-area .class-video .video-hover a {
+     height: 80px;
+     width: 80px;
+     line-height: 80px;
+     font-size: 20px;
+   }
+ }
+ @media (max-width: 767px) {
+   .class-area .class-video .video-hover a {
+     height: 50px;
+     width: 50px;
+     line-height: 50px;
+     font-size: 16px;
+   }
+ }
+ .class-area .class-video .video-hover a:before {
+   content: "";
+   position: absolute;
+   left: -10px;
+   right: -10px;
+   top: -10px;
+   bottom: -10px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+ }
+ .class-area .class-video .video-hover h3 {
+   font-size: 60px;
+   line-height: 50px;
+   color: #fff;
+   margin-top: 50px;
+   margin-bottom: 0;
+ }
+ @media (min-width: 1200px) and (max-width: 1500px) {
+   .class-area .class-video .video-hover h3 {
+     font-size: 40px;
+     line-height: 40px;
+   }
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .class-area .class-video .video-hover h3 {
+     font-size: 40px;
+     line-height: 40px;
+   }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .class-area .class-video .video-hover h3 {
+     font-size: 35px;
+     line-height: 40px;
+     margin-top: 40px;
+   }
+ }
+ @media (max-width: 767px) {
+   .class-area .class-video .video-hover h3 {
+     font-size: 20px;
+     line-height: 30px;
+     margin-top: 20px;
+   }
+ }
+ @media (min-width: 320px) and (max-width: 425px) {
+   .class-area .class-video .video-hover h3 {
+     font-size: 22px;
+     line-height: 26px;
+     margin-top: 40px;
+   }
+ }
+

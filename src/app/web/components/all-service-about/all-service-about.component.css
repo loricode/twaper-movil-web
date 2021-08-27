@@ -1,0 +1,172 @@
+.bg-fix-about{
+   background-image: url("../../../../assets/img/img-services/servizi_bkg_06.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.section-title-2.text-center h3:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-title-2 {
+  position: relative;
+  z-index: 1;
+}
+
+.section-title-2 .bars {
+  padding-top: 40px;
+  text-align: center;
+}
+.section-title-2 .bars:before {
+  content: "";
+  background: #B124EC;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin: 0 auto;
+}
+
+
+.pt-130{
+   padding-top: 130px;
+}
+
+.pb-100{
+   padding-bottom: 100px;
+}
+
+.section-title-2.bar-theme-color h3:before {
+   background: #B124EC;
+ }
+
+ .mb-35{
+    margin-bottom: 35px;
+ }
+
+ .process-wrap {
+   text-align: center;
+   position: relative;
+ }
+ .process-wrap .process-icon-wrap {
+   padding-top: 25px;
+   padding-bottom: 16px;
+ }
+ .process-wrap .process-icon-wrap .process-icon {
+   position: relative;
+   display: inline-block;
+   z-index: 3;
+   background: rgb(34,215,252);
+   background: linear-gradient(180deg, rgba(34,215,252,1) 0%, rgba(107,95,245,1) 1%, rgba(177,37,236,1) 68%, rgba(250,60,200,1) 89%);
+ }
+ .process-wrap .process-icon-wrap .process-icon i {
+   display: inline-block;
+   width: 130px;
+   height: 130px;
+   line-height: 140px;
+   position: relative;
+   font-size: 70px;
+   color: rgb(224, 59, 59);
+   text-align: center;
+   background-image: -moz-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+   background-image: -webkit-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+   background-image: -ms-linear-gradient(-72deg, #e63a34 0%, #ee7349 99%);
+   z-index: 1;
+   border-radius: 7px;
+ }
+ .process-wrap .process-icon-wrap .process-icon:after {
+   content: "";
+   position: absolute;
+   left: 16px;
+   top: 16px;
+   width: 130px;
+   height: 130px;
+   background: #fff;
+   z-index: -1;
+   border-radius: 7px;
+   opacity: 0.2;
+ }
+ .process-wrap .process-icon-wrap .process-icon .process-number {
+   position: absolute;
+   top: -25px;
+   left: -25px;
+   font-size: 18px;
+   width: 45px;
+   height: 45px;
+   line-height: 50px;
+   text-align: center;
+   border-radius: 50%;
+   background: #fff;
+   font-family: "Teko", sans-serif;
+   font-weight: 600;
+   color: #333333;
+   z-index: 3;
+ }
+ .process-wrap .process-content {
+   padding: 35px 0 0;
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .process-wrap .process-content {
+     padding: 35px 40px 0;
+   }
+ }
+ @media (max-width: 767px) {
+   .process-wrap .process-content {
+     padding: 35px 40px 0;
+   }
+ }
+ .process-wrap .process-content h3 {
+   font-size: 24px;
+   font-weight: 600;
+   color: #fff;
+   margin-bottom: 6px;
+ }
+ .process-wrap .process-content p {
+   font-size: 16px;
+   line-height: 28px;
+   color: #c9c9c9;
+ }
+ .process-wrap .process-next {
+   position: absolute;
+   right: -45px;
+   top: 55px;
+   color: #fff;
+   font-size: 60px;
+   opacity: 0.2;
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .process-wrap .process-next {
+     right: -30px;
+     top: 80px;
+     font-size: 30px;
+   }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .process-wrap .process-next {
+     display: none;
+   }
+ }
+ @media (max-width: 767px) {
+   .process-wrap .process-next {
+     display: none;
+   }
+ }
+
+
+ .process-dark .process-icon-wrap .process-icon:after {
+   background: #a8d4ff;
+   
+ }
+ .process-dark .process-icon-wrap .process-icon .process-number {
+   box-shadow: 0px 0px 29.7px 0.3px rgba(226, 226, 226, 0.78);
+ }
+ .process-dark .process-content h3 {
+   color: #29282d;
+ }
+ .process-dark .process-content p {
+   color: #8e8e8e;
+ }
+ 

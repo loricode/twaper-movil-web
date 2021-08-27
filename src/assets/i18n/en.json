@@ -1,0 +1,689 @@
+{
+    "BIENVENIDO_HOME":"Benvenuti in Twaper",
+    "SUB_BIENVENIDO":"Don’t stop me now",
+    "SUB_BIENVENIDO_PART_TWO":"Preparati per lo show Diventa protagonista",
+    "BUTTON_TEXT_LEARN_MORE":"SCOPRI DI PIÙ",
+    "ORGANIZE_TITLE":"Tu pensa al content, noi organizziamo lo show",
+    "ORGANIZE_SUB_TITLE":"I nostri pacchetti generano engagement ai tuoi post di Instagram e rispettano gli algoritmi per garantire la sicurezza del tuo account",
+    "IMAGE_VIDEO_TITLE":"Rispetto dell’algoritmo e tanta visibilità entro un’ora dalla pubblicazione",   
+    "IMAGE_VIDEO_SUB_TITLE":"La monetizzazione del tuo account dipende dalla quantità dei tuoi follower ed ancor più dal tuo engagement. Con Twaper puoi ottenere il giusto numero di interazioni organiche ad ogni tuo post stimolando così, in modo naturale, l’algoritmo a suggerire il tuo content a nuove persone perché ritenuto di qualità. Vuoi supporto per il content? Richiedi il professionista che più adatto alla tua attività.",
+    
+    "BESTSELLERS_TITLE":"I pacchetti preferiti",
+    "BESTSELLERS_TITLE_PART_TWO":"dei nostri clienti",
+ 
+    "SUBTITLE_AUTOVIEWS":"Le visualizzazioni sono l’elemento più importante quando carichi un contenuto video e rappresentano il primo fattore che prende in considerazione l’algoritmo di Instagram per misurare la qualità del tuo post. Più alto sarà il numero di views, più in alto sarà spinto il tuo post.",
+    "TEXTUP_IMAGEN":"La durata delle visualizzazioni è ugualmente importante, i profili utilizzati per visualizzare i tuoi contenuti eseguiranno le azioni nella maniera più organica possibile con un minimo di 5 secondi di permanenza.",
+    "QUESTION_AUTOVIEWS":"Perchè scegliere i pacchetti Views?",
+    "PARAGRAPH_AUTOVIEWS":"Le visualizzazioni vengono interpretate dall’algoritmo di Instagram come strumento per aumentare il tempo di permanenza dell’utente sulla piattaforma",
+    "LIST_ITEM_ONE":"il 15% minimo delle visualizzazioni inviate da noi saranno eseguite dallo stesso profilo per due volte. Questo fattore è necessario per la visibilità.",
+    "LIST_ITEM_TWO":"il 20% dei profili che visualizzano il tuo video rimangono per più di 15 secondi sul tuo profilo. Anche questa caratteristica aiuta il posizionamento.",
+    "LIST_ITEM_THREE":"Quantità sempre differenti per garantire un pattern naturale. Se scegli un pack da 1000 views, ogni giorno riceverai una quantità differente, mai inferiore a 1000.",
+    "TITLE_DESCRIPTION_ONE":"Pacchetti Views",
+    "DESCRIPTION_ONE":"Abbiamo studiato i contenuti più virali e abbiamo creato dei pacchetti che arrivano a darti fino ai 6 milioni di visualizzazioni mensili. La nostra priorità è la sicurezza del tuo account ed è per questo che non ti chiederemo mai la password per nessuno dei nostri servizi. In questo modo il tuo account sarà sempre protetto e soprattutto non violerai gli algoritmi di controllo di Instagram.",
+    "TITLE_DESCRIPTION_TWO":"Scegli il tuo",
+    "DESCRIPTION_TWO":"Una volta scelto il tuo pacchetto il sistema si attiverà entro pochi minuti dalla pubblicazione mantenendo sotto controllo l’erogazione del servizio attraverso efficienti sistemi di alert. Il tempo nel quale riceverai le tue views è di 15-30 minuti, per i pacchetti più grandi potremmo decidere di dilazionare la ricezione del servizio fino ad alcune ore per mantenere un pattern di crescita organica.",
+       
+ 
+ 
+    "SUBTITLE_REELS":"Il 5 agosto del 2020, come risposta alla veloce ascesa di TikTok, Instagram lancia i Reels, brevi video della durata massima di 15 secondi in formato verticale. I reels sono fondamentali per Instagram, tanto che il CEO, Adam Mosseri, ha recentemente affermato che Instagram non è più un'app per immagini quadrate.",
+    "TEXTUP_IMAGEN_REELS":"Aumentare il tempo che gli utenti passano sulla piattaforma è uno degli obiettivi primari di Instagram in quanto il loro guadagno consiste nel mostrare più pubblicità possibile.",
+    "QUESTION_REELS":"Perché i Reels?",
+    "PARAGRAPH_REELS":"I reels hanno raggiunto il loro scopo ed il tempo speso dagli utenti sulla piattaforma è aumentato fino ad un 3,4%. Segui le politiche di Instagram ed includi i Reels nel tuo content",
+    "LIST_ITEM_ONE_REELS":"Popolarità crescente - sempre più utenti cambiano il modo di consumare contenuti. Dalle immagini ai video brevi, spesso divertenti o semplicemente informativi", 
+    "LIST_ITEM_TWO_REELS":"C’è ancora spazio - mentre sulle immagini la concorrenza degli altri utenti è altissima, sui Reels c’è ancora spazio per farsi notare con una spesa bilanciata.",
+    "LIST_ITEM_THREE_REELS":"Più facile creare content virale -  Emoziona i tuoi utenti ed aiutali ad interagire. Usa i Reels per combinare video, effetti e musica",
+    "TITLE_DESCRIPTION_ONE_REELS":"Pacchetti per Reels",
+    "DESCRIPTION_ONE_REELS":"Che tu sia un’azienda con l’obiettivo di generare più leads attraverso i social, un influencer con la necessità di aumentare l’engagement per meglio monetizzare il tuo profilo o semplicemente una persona che vuole vedere crescere il proprio account, abbiamo il pacchetto giusto per te.", 
+    "TITLE_DESCRIPTION_TWO_REELS":"Scegli il tuo",
+    "DESCRIPTION_TWO_REELS":"Una volta scelto il tuo pacchetto il sistema si attiverà entro pochi minuti dalla pubblicazione mantenendo sotto controllo l’erogazione del servizio attraverso efficienti sistemi di alert. Il tempo nel quale riceverai i tuoi Reels è di 15-30 minuti, per i pacchetti più grandi potremmo decidere di dilazionare la ricezione del servizio fino ad alcune ore per mantenere un pattern di crescita organica.",
+    
+ 
+ 
+    "SUBTITLE_IMPRESSIONS":"Le impression rappresentano la quantità di volte che gli utenti visualizzano il tuo post. Tutti i profili, prima di ricevere like o comment dovrebbero preparare le proprie pubblicazioni con una quantità di impression pari almeno a 3 volte i like che si riceveranno.",
+    "TEXTUP_IMAGEN_IMPRESSIONS":"Se hai un pack Twaper da 500 like sarebbe opportuno acquistare almeno 1500 impression e 50 saves per rendere il più possibile reali le integrazioni automatiche.",
+    "QUESTION_IMPRESSIONS":"Come aiutano le impression?",
+    "PARAGRAPH_IMPRESSIONS":"Le impression aiutano il tuo account a mostrare la propria crescita organica e rispettano il tuo engagement.",
+    "LIST_ITEM_ONE_IMPRESSIONS":"Rendono ogni altro servizio al 100% naturale poiché prima di ricevere likes, qualcuno deve vedere il tuo post.",
+    "LIST_ITEM_TWO_IMPRESSIONS":"Aumentano automaticamente il reach , ovvero la quantità di persone raggiunte",
+    "LIST_ITEM_THREE_IMPRESSIONS":"Riceverai Impression sia da Home che da Profilo, così che la presenza su Hashtags ed Esplora sarà 100% organica",
+    "TITLE_DESCRIPTION_ONE_IMPRESSIONS":"Pacchetti IMPRESSION",
+    "DESCRIPTION_ONE_IMPRESSIONS":"Questi pacchetti sono consigliati a tutti i clienti che hanno acquistato o vogliono acquistare qualsiasi nostro servizio. Da abbinare con : AUTO LIKES,REELS, IGTV, VIEWS E SAVES. Ricorda sempre la corretta proporzione tra impression e like, ogni 3-5 impression, nella crescita organica, generano 1 like.", 
+    "TITLE_DESCRIPTION_TWO_IMPRESSIONS":"",
+    "DESCRIPTION_TWO_IMPRESSIONS":"",
+     
+    
+    "SUBTITLE_IGTV":"IGTV, il canale di Instagram dedicato ai video di durata superiore ad 1 minuto, simili a quelli di Youtube, ti aiuta a creare una relazione duratura con i tuoi followers. Le visualizzazioni sono l’elemento più importante quando carichi un contenuto video quindi, più alto sarà il numero di views, più in alto sarà spinto il tuo post.",
+    "TEXTUP_IMAGEN_IGTV":"Anche la durata delle visualizzazioni è importante, i profili utilizzati per visualizzare i tuoi contenuti eseguiranno le azioni nella maniera più organica possibile con un minimo di 15 secondi di permanenza per ogni visualizzazione.",
+    "QUESTION_IGTV":"Perchè scegliere i pacchetti Views dedicati ad IGTV?",
+    "PARAGRAPH_IGTV":"Gli IGTV vengono utilizzati dall’algoritmo di Instagram come strumento competitor di YouTube ed hanno l’obiettivo di aumentare il tempo di permanenza dell’utente sulla piattaforma",
+    "LIST_ITEM_ONE_IGTV":"I pacchetti IGTV sono stati studiati con attenzione ed ottimizzati con una durata di visualizzazione dei  contenuti più alta rispetto ai pacchetti Reels e Views.",
+    "LIST_ITEM_TWO_IGTV":"il 27% dei profili che visualizzano il tuo video rimangono per più di 20 secondi sul tuo profilo con picchi fino ai 2 minuti. Le medie superano i 40 secondi.",
+    "LIST_ITEM_THREE_IGTV":"Instagram considera la permanenza degli utenti una prova della qualitá dei tuoi contenuti quindi ti premia con priorità nelle visualizzazioni",
+    "TITLE_DESCRIPTION_ONE_IGTV":"Pacchetti IGTV",
+    "DESCRIPTION_ONE_IGTV":"Prima di creare contenuti per IGTV tieni presente che le persone consumano content in modo “egoistico”, ovvero si aspettano di ricevere qualcosa. Essere intrattenuti, emozionati, poter imparare qualcosa di nuovo o scoprire una nuova teoria intrigante su un certo argomento susciterà la loro curiosità. Crea dei contenuti che soddisfino almeno uno di questi requisiti ed ottieni un successo assicurato grazie ai nostri pacchetti visibilità.", 
+    "TITLE_DESCRIPTION_TWO_IGTV":"Scegli il tuo",
+    "DESCRIPTION_TWO_IGTV":"Una volta scelto il tuo pacchetto il sistema si attiverà entro pochi minuti dalla pubblicazione mantenendo sotto controllo l’erogazione del servizio attraverso efficienti sistemi di alert. Il tempo nel quale riceverai le tue views è di 15-30 minuti, per i pacchetti più grandi potremmo decidere di dilazionare la ricezione del servizio fino ad alcune ore per mantenere un pattern di crescita organica.",
+ 
+  
+    "SUBTITLE_VIP":"C’è qualcosa di meglio di molti comment per far esplodere il tuo engagement? Si, la loro provenienza. I nostri VIP comments arrivano da account con oltre 10k followers. Non solo la qualità degli account è superiore, ma anche i commenti sono mirati e si adattano ad ogni tuo post. Vuoi un esempio di un VIP comment ?",
+    "TEXTUP_IMAGEN_VIP":"Oltre ai commenti mirati, riceverai come bonus anche like e saves da questi account. Tutti gli account che commentano i tuoi post hanno profili privati.",
+    "QUESTION_VIP":"Perché i VIP comments?",
+    "PARAGRAPH_VIP":"Cosa differenzia i commenti VIP dai commenti normali che puoi acquistare a pochi euro? La provenienza. Se qualcuno di famoso parla di te il tuo account esplode",
+    "LIST_ITEM_ONE_VIP":"Account con più di 10k followers - per l’algoritmo conta di più un commento lasciato da un account grande perchè questo genera visibilità assicurata e quindi permanenza",
+    "LIST_ITEM_TWO_VIP":"Bonus likes + saves - se account grandi reputano i tuoi contenuti di valore anche Instagram lo farà e punterà sul tuo account per posizionarlo su Explora.",
+    "LIST_ITEM_THREE_VIP":"Commenti coerenti con il post -  il nostro sistema riconosce le immagini, i hashtags e la descrizione del post in modo da scrivere commenti coerenti con i tuoi contenuti",
+    "TITLE_DESCRIPTION_ONE_VIP":"Pacchetti VIP comment",
+    "DESCRIPTION_ONE_VIP":"Per ricevere la migliore qualità di commenti, ti consigliamo di assicurarti che il tuo post utilizza hashtags coerenti con il tuo post e che la descrizione sia accurata, scritta correttamente, senza abbreviazioni o linguaggio troppo gergale. Ricorda che un VIP comment deve essere utilizzato per contenuti sui quali tu punti per la crescita immediata del tuo account. Considera il servizio VIP comments come un jolly che devi utilizzare con accuratezza.", 
+    "TITLE_DESCRIPTION_TWO_VIP":"",
+    "DESCRIPTION_TWO_VIP":"",
+ 
+    "SUBTITLE_AUTOLIKES":"Ti sei mai chiesto perchè i ristoranti riempiono sempre i tavoli più visibili dall’esterno? Se fossi in vacanza mangeresti in un ristorante vuoto dove non va nessuno o in un ristorante pieno di gente? I Like che riceverai non saranno necessariamente del tuo vicino di casa o di un utente scelto accuratamente, serviranno esclusivamente a alimentare il famoso detto “la gente va dove sta la gente”.",
+    "TEXTUP_IMAGEN_AUTOLIKES":"Avere il servizio autoLike è importantissimo per dare credibilità iniziale al tuo post ed ottenere interazioni reali. Molti studi dimostrano che nella manifestazione di una preferenza sapere che altri utenti la pensano come noi aiuta",
+    "QUESTION_AUTOLIKES":"Come aiutano i like?",
+    "PARAGRAPH_AUTOLIKES":"Per capire come aiutano i like dobbiamo capire quali sono i processi interni di classificazione del post",
+    "LIST_ITEM_ONE_AUTOLIKES":"La prima ora di vita del tuo post è la più importante ed è durante questo tempo che le interazioni che riceverai faranno la differenza",
+    "LIST_ITEM_TWO_AUTOLIKES":"Se nella prima ora avrai ricevuto abbastanza interazioni, il tuo post salirà sempre di più nei hashtags",
+    "LIST_ITEM_THREE_AUTOLIKES":"Se le persone che troveranno il tuo post nei hashtag interagiranno, il tuo post sarà un buon candidato per Esplora.",
+    "TITLE_DESCRIPTION_ONE_AUTOLIKES":"Pacchetti di Auto Likes",
+    "DESCRIPTION_ONE_AUTOLIKES":"Quando una azienda cerca un influencer per la propria pubblicità valuta il profilo, la quantità di follower ma ancor più l’engagement dei potenziali candidati. Tra un influencer con 100k followers ed un engagement del 1% ed un’altro con 30k followers ma con il 5% di engagement il 90% delle aziende sceglie l’influencer con maggior engagement. Quando vuoi generare una rendita con il tuo account, devi assicurarti che i tuoi post abbiano una interazione costante.", 
+    "TITLE_DESCRIPTION_TWO_AUTOLIKES":"Scegli il tuo",
+    "DESCRIPTION_TWO_AUTOLIKES":"Una volta scelto il tuo pacchetto il sistema si attiverà entro pochi minuti dalla pubblicazione mantenendo sotto controllo l’erogazione del servizio attraverso efficienti sistemi di alert. Il tempo medio nel quale riceverai i tuoi like è di 37 minuti, per i pacchetti più grandi potremmo decidere di dilazionare la ricezione del servizio fino ad alcune ore per mantenere un pattern di crescita organica.",
+    
+    "TITLE_SMALL_PACKAGE":"Pacchetti Petite",
+    "TITLE_SMALL_PACKAGE_PART_ONE":"Pacchetti per nano influencers ed account tra 1000 e ",
+    "TITLE_SMALL_PACKAGE_PART_TWO":"5000 followers. Raggiungi fino a 100,000 views/mese",
+ 
+    "ONE_CARD_PRICE":"€ 29.99",
+    "MONTH":"per month",
+    "ONE_CARD_PETITE":"Petite 500",
+    "ONE_CARD_ITEM_ONE":"500 views/ Reel",
+    "CARD_ITEM_TWO":"copriamo 90 post al mese",
+    "ONE_CARD_ITEM_THREE":"fino a 45K views/mese",
+    "CARD_ITEM_FOUR":"reach boost",
+    "CARD_ITEM_FIVE":"explore page friendly",
+    "CARD_ITEM_SIX":"100% compatibile con       auto likes & saves",
+    "CARD_ITEM_SEVEN":"rilevamento rapido del post",
+    "CARD_BUTTON":"Compra ora",
+ 
+    "TWO_CARD_PRICE":"€ 54.99",
+    "TWO_CARD_PETITE":"Petite 700",
+    "TWO_CARD_ITEM_ONE":"750 views/ Reel", 
+ 
+    "TWO_CARD_ITEM_THREE":"fino a 68K views/mese",
+ 
+    "THREE_CARD_PRICE":"€ 89.99",
+    "THREE_CARD_PETITE":"Petite 1000",
+    "THREE_CARD_ITEM_ONE":"1000 views/ Reel",
+ 
+    "THREE_CARD_ITEM_THREE":"fino a 100K views/mese",
+ 
+    "TITLE_MICRO_PACKAGE":"Pacchetti Micro",
+    "TITLE_MICRO_PACKAGE_PART_ONE":"Creati per far esplodere l’engagement.",
+    "TITLE_MICRO_PACKAGE_PART_TWO":"Per micro influencers o account fino a 20k followers. Fino a 700,000 views al mese",
+    
+    "ONE_CARD_MICRO_PRICE":"€ 159.99",
+    "ONE_CARD_MICRO":"Micro 2k",
+    "ONE_CARD_MICRO_ITEM_ONE":"2000 views/ Reel",
+ 
+    "ONE_CARD_ITEM_MICRO_THREE":"fino a 200K views/mese",
+ 
+    "TWO_CARD_MICRO_PRICE":"€ 199.99",
+    "TWO_CARD_MICRO":"Micro 5K",
+    "TWO_CARD_MICRO_ITEM_ONE":"5000 views/ Reel",
+    
+    "TWO_CARD_ITEM_MICRO_THREE":"fino a 450K views/mese",
+ 
+    "THREE_CARD_MICRO_PRICE":"€ 299.99",
+    "THREE_CARD_MICRO":"Micro 7,5K",
+    "THREE_CARD_MICRO_ITEM_ONE":"7500 views/ Reel", 
+    "THREE_CARD_ITEM_MICRO_THREE":"fino a 700K views/mese",
+     
+    "TITLE_GIGA_PACKAGE":"Pacchetti Giga",
+    "TITLE_GIGA_PACKAGE_PART_ONE":" Visibilità assicurata - fino a 2,25 milioni di visualizzazioni al mese.",
+    "TITLE_GIGA_PACKAGE_PART_TWO":"Per influencers o account tra 25k - 100k followers",
+ 
+    "ONE_CARD_GIGA_PRICE":"€ 449.99",
+    "ONE_CARD_GIGA":"Giga 10K",
+    "ONE_CARD_GIGA_ITEM_ONE":"10,000 views/ Reel",
+    "ONE_CARD_ITEM_GIGA_THREE":"fino a 1M views/mese",
+ 
+    "TWO_CARD_GIGA_PRICE":"€ 599.99",
+    "TWO_CARD_GIGA":"Giga 20K",
+    "TWO_CARD_GIGA_ITEM_ONE":"20,000 views/ Reel", 
+    "TWO_CARD_ITEM_GIGA_THREE":"fino a 2M views/mese",
+ 
+    "THREE_CARD_GIGA_PRICE":"€ 699.99",
+    "THREE_CARD_GIGA":"Giga 25K",
+    "THREE_CARD_GIGA_ITEM_ONE":"25,000 views/ Reel",  
+    "THREE_CARD_ITEM_GIGA_THREE":"fino a 2,25M views/mese",
+ 
+    "TITLE_VIP_PACKAGE":"Pacchetti VIP",
+    "TITLE_VIP_PACKAGE_PART_ONE":"Rendi ogni tuo Reel virale, fino a 15 milioni di visualizzazioni al mese.",
+    "TITLE_VIP_PACKAGE_PART_TWO":" Per VIP Influencers o account con più di 150k followers",
+ 
+    "ONE_CARD_VIP_PRICE":"€ 749.99",
+    "ONE_CARD_VIP":"VIP 50K",
+    "ONE_CARD_VIP_ITEM_ONE":"50,000 views/ Reel",
+    "ONE_CARD_VIP_ITEM_TWO":"copriamo 60 post al mese",
+    "ONE_CARD_ITEM_VIP_THREE":"fino a 3M views/mese",
+ 
+    "TWO_CARD_VIP_PRICE":"€ 1249.99",
+    "TWO_CARD_VIP":"VIP 100K",
+    "TWO_CARD_VIP_ITEM_ONE":"100,000 views/ Reel",
+    "TWO_CARD_ITEM_VIP_THREE":"fino a 6M views/mese",
+ 
+    "THREE_CARD_VIP_PRICE":"€ 2499.99",
+    "THREE_CARD_VIP":"VIP 250K",
+    "THREE_CARD_VIP_ITEM_ONE":"250,000 views/ Reel",
+    "THREE_CARD_ITEM_VIP_THREE":"fino a 15M views/mese",
+    
+    "TITLE_SMALL_PACKAGE_LIKES_PART_ONE":"Pacchetti per nano influencers o account piccoli tra 500 e",
+    "TITLE_SMALL_PACKAGE_LIKES_PART_TWO":"5000 followers. Raggiungi fino a 12,000 likes/mese",
+ 
+    "ONE_CARD_PRICE_LIKES":"€ 19.99",
+    "ONE_CARD_PETITE_LIKES":"Petite 50",
+    "ONE_CARD_ITEM_ONE_LIKES":"50 likes / post",
+    "CARD_ITEM_TWO_LIKES":"copriamo 60 posts al mese",
+    "ONE_CARD_ITEM_THREE_LIKES":"fino a 3,000 likes /mese",
+    "CARD_ITEM_FOUR_LIKES":"algorithm friendly",
+    "CARD_ITEM_FIVE_LIKES":"100% sicuro",
+    "CARD_ITEM_SIX_LIKES":"explore page friendly",
+    "CARD_ITEM_SEVEN_LIKES":"crescita engagement",
+    "CARD_ITEM_EIGHT_LIKES":"TOP hashtags/location",
+ 
+ 
+    "TWO_CARD_PRICE_LIKES":"€ 29.99",
+    "TWO_CARD_PETITE_LIKES":"Petite 100",
+    "TWO_CARD_ITEM_ONE_LIKES":"100 likes / post",
+    "TWO_CARD_ITEM_THREE_LIKES":"fino a 6,000 likes /mese",
+ 
+    "THREE_CARD_PRICE_LIKES":"€ 59.99",
+    "THREE_CARD_PETITE_LIKES":"Petite 200",
+    "THREE_CARD_ITEM_ONE_LIKES":"200 likes / post",
+    "THREE_CARD_ITEM_THREE_LIKES":"fino a 12K likes /mese",
+ 
+    "TITLE_MICRO_PACKAGE_LIKES_PART_ONE":"Creati per far esplodere l’engagement.",
+    "TITLE_MICRO_PACKAGE_LIKES_PART_TWO":"Per micro influencers o account fino a 20k followers. Ricevi fino a 45,000 likes al mese",
+ 
+    "ONE_CARD_PRICE_MICRO_LIKES":"€ 89.99",
+    "ONE_CARD_MICRO_LIKES":"Micro 300",
+    "ONE_CARD_ITEM_ONE_MICRO_LIKES":"300 likes / post",
+    "ONE_CARD_ITEM_THREE_MICRO_LIKES":"fino a 18K likes /mese",
+ 
+    "TWO_CARD_PRICE_MICRO_LIKES":"€ 149.99",
+    "TWO_CARD_MICRO_LIKES":"Micro 500",
+    "TWO_CARD_ITEM_ONE_MICRO_LIKES":"500 likes / post",
+    "TWO_CARD_ITEM_THREE_MICRO_LIKES":"fino a 30K likes /mese",
+ 
+    "THREE_CARD_PRICE_MICRO_LIKES":"€ 199.99",
+    "THREE_CARD_MICRO_LIKES":"Micro 750",
+    "THREE_CARD_ITEM_ONE_MICRO_LIKES":"500 likes / post",
+    "THREE_CARD_ITEM_THREE_MICRO_LIKES":"fino a 45K likes /mese",
+ 
+    "TITLE_GIGA_PACKAGE_LIKES_PART_ONE":"Visibilità assicurata - fino a 120,000 likes al mese.",
+    "TITLE_GIGA_PACKAGE_LIKES_PART_TWO":"Per influencers o account tra 25k - 100k followers",
+ 
+    "ONE_CARD_PRICE_GIGA_LIKES":"€ 299.99",
+    "ONE_CARD_GIGA_LIKES":"Giga 1000",
+    "ONE_CARD_ITEM_ONE_GIGA_LIKES":"1000 likes / post",
+    "ONE_CARD_ITEM_THREE_GIGA_LIKES":"fino a 60K likes /mese",
+ 
+    "TWO_CARD_PRICE_GIGA_LIKES":"€ 449.99",
+    "TWO_CARD_GIGA_LIKES":"Giga 1500",
+    "TWO_CARD_ITEM_ONE_GIGA_LIKES":"1500 likes / post",
+    "TWO_CARD_ITEM_THREE_GIGA_LIKES":"fino a 90K likes /mese",
+ 
+    "THREE_CARD_PRICE_GIGA_LIKES":"€ 599.99",
+    "THREE_CARD_GIGA_LIKES":"Giga 2000",
+    "THREE_CARD_ITEM_ONE_GIGA_LIKES":"2000 likes / post",
+    "THREE_CARD_ITEM_THREE_GIGA_LIKES":"fino a 120K likes /mese",
+ 
+    "TITLE_VIP_PACKAGE_LIKES_PART_ONE":"Rendi ogni tuo post virale, fino a 150,000 likes al mese.",
+    "TITLE_VIP_PACKAGE_LIKES_PART_TWO":"Per VIP Influencers o account con più di 150k followers",
+   
+    "ONE_CARD_PRICE_VIP_LIKES":"€ 699.99",
+    "ONE_CARD_VIP_LIKES":"VIP 2500",
+    "ONE_CARD_ITEM_ONE_VIP_LIKES":"2500 likes / post",
+    "CARD_ITEM_TWO_VIP_LIKES":"copriamo 30 posts al mese",
+    "ONE_CARD_ITEM_THREE_VIP_LIKES":"fino a 150K likes /mese",
+ 
+    "TWO_CARD_PRICE_VIP_LIKES":"€ 999.99",
+    "TWO_CARD_VIP_LIKES":"VIP 4000",
+    "TWO_CARD_ITEM_ONE_VIP_LIKES":"4000 likes / post",
+    "TWO_CARD_ITEM_THREE_VIP_LIKES":"fino a 120K likes /mese",
+ 
+    "THREE_CARD_PRICE_VIP_LIKES":"€ 1249.99",
+    "THREE_CARD_VIP_LIKES":"VIP 5000",
+    "THREE_CARD_ITEM_ONE_VIP_LIKES":"5000 likes / post",
+    "THREE_CARD_ITEM_THREE_VIP_LIKES":"fino a 150K likes /mese",
+ 
+ 
+    "TITLE_SMALL_INCLUSIVE_PART_ONE":"Pacchetti per nano influencers o account piccoli tra 500",
+    "TITLE_SMALL_INCLUSIVE_PART_TWO":"e 5000 followers.",
+ 
+    "ONE_CARD_PRICE_INCLUSIVE":"€ 29.99",
+    "ONE_CARD_PETITE_INCLUSIVE":"Petite 50",
+    "ONE_CARD_ITEM_ONE_INCLUSIVE":"Likes 20-50",
+    "CARD_ITEM_TWO_INCLUSIVE":"Views 100-250",
+    "ONE_CARD_ITEM_THREE_INCLUSIVE":"Impressions 150-300",
+    "CARD_ITEM_FOUR_INCLUSIVE":"Saves 10-15",
+    "CARD_ITEM_FIVE_INCLUSIVE":"Reels Likes 20-50",
+    "CARD_ITEM_SIX_INCLUSIVE":"Reels Views 100-250",
+    "CARD_ITEM_SEVEN_INCLUSIVE":"IGTV Likes 20-50",
+    "CARD_ITEM_EIGHT_INCLUSIVE":"IGTV Views 100-250",
+    "CARD_ITEM_NINE_INCLUSIVE":"explore page friendly",
+    "CARD_ITEM_TEN_INCLUSIVE":"copriamo 30 post al mese",
+ 
+ 
+    "TWO_CARD_PRICE_INCLUSIVE":"€ 69.99",
+    "TWO_CARD_PETITE_INCLUSIVE":"Petite 150",
+    "TWO_CARD_ITEM_ONE_INCLUSIVE":"Likes 50-150",
+    "TWO_CARD_ITEM_TWO_INCLUSIVE":"Views 500-800",
+    "TWO_CARD_ITEM_THREE_INCLUSIVE":"Impressions 800-1000",
+    "TWO_CARD_ITEM_FOUR_INCLUSIVE":"Saves 15-25",
+    "TWO_CARD_ITEM_FIVE_INCLUSIVE":"Reels Likes 50-150",
+    "TWO_CARD_ITEM_SIX_INCLUSIVE":"Reels Views 500-800",
+    "TWO_CARD_ITEM_SEVEN_INCLUSIVE":"IGTV Likes 50-150",
+    "TWO_CARD_ITEM_EIGHT_INCLUSIVE":"IGTV Views 500-800",
+ 
+ 
+    "THREE_CARD_PRICE_INCLUSIVE":"€ 99.99",
+    "THREE_CARD_PETITE_INCLUSIVE":"Petite 250",
+    "THREE_CARD_ITEM_ONE_INCLUSIVE":"Likes 150-250",
+    "THREE_CARD_ITEM_TWO_INCLUSIVE":"Views 1000-2500",
+    "THREE_CARD_ITEM_THREE_INCLUSIVE":"Impressions 2000-3000",
+    "THREE_CARD_ITEM_FOUR_INCLUSIVE":"Saves 25-40",
+    "THREE_CARD_ITEM_FIVE_INCLUSIVE":"Reels Likes 150-250",
+    "THREE_CARD_ITEM_SIX_INCLUSIVE":"Reels Views 1000-2500",
+    "THREE_CARD_ITEM_SEVEN_INCLUSIVE":"IGTV Likes 150-250",
+    "THREE_CARD_ITEM_EIGHT_INCLUSIVE":"IGTV Views 1000-2500",
+ 
+ 
+    "TITLE_MICRO_INCLUSIVE_PART_ONE":"Creati per far esplodere l’engagement",
+    "TITLE_MICRO_INCLUSIVE_PART_TWO":"Per micro influencers o account fino a 20k followers",
+ 
+    "ONE_CARD_PRICE_MICRO_INCLUSIVE":"€ 199.99",
+    "ONE_CARD_MICRO_INCLUSIVE":"Micro 500",
+    "ONE_CARD_ITEM_ONE_MICRO_INCLUSIVE":"Likes 250-500",
+    "CARD_ITEM_TWO_MICRO_INCLUSIVE":"Views 2500-5000",
+    "ONE_CARD_ITEM_THREE_MICRO_INCLUSIVE":"Impressions 4000-6000",
+    "CARD_ITEM_FOUR_MICRO_INCLUSIVE":"Saves 40-50",
+    "CARD_ITEM_FIVE_MICRO_INCLUSIVE":"Reels Likes 250-500",
+    "CARD_ITEM_SIX_MICRO_INCLUSIVE":"Reels Views 2500-5000",
+    "CARD_ITEM_SEVEN_MICRO_INCLUSIVE":"IGTV Likes 250-500",
+    "CARD_ITEM_EIGHT_MICRO_INCLUSIVE":"IGTV Views 2500-5000",
+ 
+ 
+    "TWO_CARD_PRICE_MICRO_INCLUSIVE":"€ 289.99",
+    "TWO_CARD_MICRO_INCLUSIVE":"Micro 700",
+    "TWO_CARD_ITEM_ONE_MICRO_INCLUSIVE":"Likes 500-700",
+    "TWO_CARD_ITEM_TWO_MICRO_INCLUSIVE":"Views 5000-7500",
+    "TWO_CARD_ITEM_THREE_MICRO_INCLUSIVE":"Impressions 6000-8500",
+    "TWO_CARD_ITEM_FOUR_MICRO_INCLUSIVE":"Saves 50-75",
+    "TWO_CARD_ITEM_FIVE_MICRO_INCLUSIVE":"Reels Likes 500-750",
+    "TWO_CARD_ITEM_SIX_MICRO_INCLUSIVE":"Reels Views 5000-7500",
+    "TWO_CARD_ITEM_SEVEN_MICRO_INCLUSIVE":"IGTV Likes 500-700",
+    "TWO_CARD_ITEM_EIGHT_MICRO_INCLUSIVE":"IGTV Views 5000-7500",
+ 
+ 
+    "THREE_CARD_PRICE_MICRO_INCLUSIVE":"€ 589.99",
+    "THREE_CARD_MICRO_INCLUSIVE":"Micro 900",
+    "THREE_CARD_ITEM_ONE_MICRO_INCLUSIVE":"Likes 750-900",
+    "THREE_CARD_ITEM_TWO_MICRO_INCLUSIVE":"Views 7500-10k",
+    "THREE_CARD_ITEM_THREE_MICRO_INCLUSIVE":"Impressions 10k-12k",
+    "THREE_CARD_ITEM_FOUR_MICRO_INCLUSIVE":"Saves 75-100",
+    "THREE_CARD_ITEM_FIVE_MICRO_INCLUSIVE":"Reels Likes 750-900",
+    "THREE_CARD_ITEM_SIX_MICRO_INCLUSIVE":"Reels Views 7500-10k",
+    "THREE_CARD_ITEM_SEVEN_MICRO_INCLUSIVE":"IGTV Likes 750-900",
+    "THREE_CARD_ITEM_EIGHT_MICRO_INCLUSIVE":"IGTV Views 7500-10k",
+ 
+    "TITLE_GIGA_INCLUSIVE_PART_ONE":"Visibilità assicurata per influencers o",
+    "TITLE_GIGA_INCLUSIVE_PART_TWO":"account tra 25k - 100k followers",
+   
+    "ONE_CARD_PRICE_GIGA_INCLUSIVE":"€ 799.99",
+    "ONE_CARD_GIGA_INCLUSIVE":"Giga 1200",
+    "ONE_CARD_ITEM_ONE_GIGA_INCLUSIVE":"Likes 1000-1200",
+    "CARD_ITEM_TWO_GIGA_INCLUSIVE":"Views 10k-15k",
+    "ONE_CARD_ITEM_THREE_GIGA_INCLUSIVE":"Impressions 15k-18k",
+    "CARD_ITEM_FOUR_GIGA_INCLUSIVE":"Saves 100-150",
+    "CARD_ITEM_FIVE_GIGA_INCLUSIVE":"Reels Likes 1000-1200",
+    "CARD_ITEM_SIX_GIGA_INCLUSIVE":"Reels Views  10k-15k",
+    "CARD_ITEM_SEVEN_GIGA_INCLUSIVE":"IGTV Likes 1000-1200",
+    "CARD_ITEM_EIGHT_GIGA_INCLUSIVE":"IGTV Views  10k-15k",
+ 
+    
+    "TWO_CARD_PRICE_GIGA_INCLUSIVE":"€ 999.99",
+    "TWO_CARD_GIGA_INCLUSIVE":"Giga 2000",
+    "TWO_CARD_ITEM_ONE_GIGA_INCLUSIVE":"Likes 1500-2000",
+    "TWO_CARD_ITEM_TWO_GIGA_INCLUSIVE":"Views 15k-20k",
+    "TWO_CARD_ITEM_THREE_GIGA_INCLUSIVE":"Impressions 20k-25k",
+    "TWO_CARD_ITEM_FOUR_GIGA_INCLUSIVE":"Saves 150-300",
+    "TWO_CARD_ITEM_FIVE_GIGA_INCLUSIVE":"Reels Likes 1200-1500",
+    "TWO_CARD_ITEM_SIX_GIGA_INCLUSIVE":"Reels Views 15k-20k",
+    "TWO_CARD_ITEM_SEVEN_GIGA_INCLUSIVE":"IGTV Likes 1200-1500",
+    "TWO_CARD_ITEM_EIGHT_GIGA_INCLUSIVE":"IGTV Views 15k-20k",
+ 
+ 
+    "THREE_CARD_PRICE_GIGA_INCLUSIVE":"€ 1389.99",
+    "THREE_CARD_GIGA_INCLUSIVE":"Giga 4000",
+    "THREE_CARD_ITEM_ONE_GIGA_INCLUSIVE":"Likes 2500-4000",
+    "THREE_CARD_ITEM_TWO_GIGA_INCLUSIVE":"Views 20k-30k",
+    "THREE_CARD_ITEM_THREE_GIGA_INCLUSIVE":"Impressions 30k-35k",
+    "THREE_CARD_ITEM_FOUR_GIGA_INCLUSIVE":"Saves 350-400",
+    "THREE_CARD_ITEM_FIVE_GIGA_INCLUSIVE":"Reels Likes 2500-4000",
+    "THREE_CARD_ITEM_SIX_GIGA_INCLUSIVE":"Reels Views 20k-30k",
+    "THREE_CARD_ITEM_SEVEN_GIGA_INCLUSIVE":"IGTV Likes 2500-4000",
+    "THREE_CARD_ITEM_EIGHT_GIGA_INCLUSIVE":"IGTV Views 20k-30k",
+ 
+    "TITLE_VIP_INCLUSIVE_PART_ONE":"Rendi ogni tuo post virale. Per VIP Influencers o",
+    "TITLE_VIP_INCLUSIVE_PART_TWO":"account con più di 150k followers",
+ 
+ 
+    "ONE_CARD_PRICE_VIP_INCLUSIVE":"€ 2199.99",
+    "ONE_CARD_VIP_INCLUSIVE":"VIP 7500",
+    "ONE_CARD_ITEM_ONE_VIP_INCLUSIVE":"Likes 5000-7500",
+    "CARD_ITEM_TWO_VIP_INCLUSIVE":"Views 30k-50k",
+    "ONE_CARD_ITEM_THREE_VIP_INCLUSIVE":"Impressions 50k-75k",
+    "CARD_ITEM_FOUR_VIP_INCLUSIVE":"Saves 400-500",
+    "CARD_ITEM_FIVE_VIP_INCLUSIVE":"Reels Likes  5000-7500",
+    "CARD_ITEM_SIX_VIP_INCLUSIVE":"Reels Views 30k-50k",
+    "CARD_ITEM_SEVEN_VIP_INCLUSIVE":"IGTV Likes 5000-7500",
+    "CARD_ITEM_EIGHT_VIP_INCLUSIVE":"IGTV Views 30k-50k",
+ 
+    
+    "TWO_CARD_PRICE_VIP_INCLUSIVE":"€ 2999.99",
+    "TWO_CARD_VIP_INCLUSIVE":"VIP 9000",
+    "TWO_CARD_ITEM_ONE_VIP_INCLUSIVE":"Likes 7500-9000",
+    "TWO_CARD_ITEM_TWO_VIP_INCLUSIVE":"Views 50k-75k",
+    "TWO_CARD_ITEM_THREE_VIP_INCLUSIVE":"Impressions 75k-80k",
+    "TWO_CARD_ITEM_FOUR_VIP_INCLUSIVE":"Saves 500-600",
+    "TWO_CARD_ITEM_FIVE_VIP_INCLUSIVE":"Reels Likes 7500-9000",
+    "TWO_CARD_ITEM_SIX_VIP_INCLUSIVE":"Reels Views 50k-75k",
+    "TWO_CARD_ITEM_SEVEN_VIP_INCLUSIVE":"IGTV Likes 7500-9000",
+    "TWO_CARD_ITEM_EIGHT_VIP_INCLUSIVE":"IGTV Views 50k-75k",
+ 
+ 
+    "THREE_CARD_PRICE_VIP_INCLUSIVE":"€ 3979.99",
+    "THREE_CARD_VIP_INCLUSIVE":"VIP 10K",
+    "THREE_CARD_ITEM_ONE_VIP_INCLUSIVE":"Likes 9000-10000",
+    "THREE_CARD_ITEM_TWO_VIP_INCLUSIVE":"Views 75k-100k",
+    "THREE_CARD_ITEM_THREE_VIP_INCLUSIVE":"Impressions 80k-100k",
+    "THREE_CARD_ITEM_FOUR_VIP_INCLUSIVE":"Saves 600-1000",
+    "THREE_CARD_ITEM_FIVE_VIP_INCLUSIVE":"Reels Likes 9000-10000",
+    "THREE_CARD_ITEM_SIX_VIP_INCLUSIVE":"Reels Views 75k-100k",
+    "THREE_CARD_ITEM_SEVEN_VIP_INCLUSIVE":"IGTV Likes 9000-10000",
+    "THREE_CARD_ITEM_EIGHT_VIP_INCLUSIVE":"IGTV Views 75k-100k",
+ 
+    "TITLE_SMALL_AUTOVIEWS_PART_ONE":"Pacchetti per nano influencers o account piccoli tra 1500 e 5000 followers.",
+    "TITLE_SMALL_AUTOVIEWS_PART_TWO":"Raggiungi fino a 90,000 views/mese",
+ 
+    "ONE_CARD_PRICE_SMALL_AUTOVIEWS":"€ 19.99",
+    "ONE_CARD_SMALL_AUTOVIEWS":"Petite 500",
+    "ONE_CARD_ITEM_ONE_SMALL_AUTOVIEWS":"500 views / post",
+    "CARD_ITEM_TWO_SMALL_AUTOVIEWS":"copriamo 60 post/mese",
+    "ONE_CARD_ITEM_THREE_SMALL_AUTOVIEWS":"fino a 30K views / mese",
+    "CARD_ITEM_FOUR_SMALL_AUTOVIEWS":"pattern naturale",
+    "CARD_ITEM_FIVE_SMALL_AUTOVIEWS":"100% sicuro",
+    "CARD_ITEM_SIX_SMALL_AUTOVIEWS":"explore page friendly",
+    "CARD_ITEM_SEVEN_SMALL_AUTOVIEWS":"rilevamento rapido dei post",
+    "CARD_ITEM_EIGHT_SMALL_AUTOVIEWS":"altissima qualità",
+ 
+    "TWO_CARD_PRICE_SMALL_AUTOVIEWS":"€ 39.99",
+    "TWO_CARD_SMALL_AUTOVIEWS":"Petite 1000",
+    "TWO_CARD_ITEM_ONE_SMALL_AUTOVIEWS":"1000 views / post",
+    "TWO_CARD_ITEM_THREE_SMALL_AUTOVIEWS":"fino a 60K views / mese",
+ 
+    
+    "THREE_CARD_PRICE_SMALL_AUTOVIEWS":"€ 59.99",
+    "THREE_CARD_SMALL_AUTOVIEWS":"Petite 1500",
+    "THREE_CARD_ITEM_ONE_SMALL_AUTOVIEWS":"1500 views / post",
+    "THREE_CARD_ITEM_THREE_SMALL_AUTOVIEWS":"fino a 90K views / mese",
+ 
+    "TITLE_POWER_PACKAGE":"Pacchetti Power",
+ 
+    "TITLE_MICRO_AUTOVIEWS_PART_ONE":"Creati per far esplodere l’engagement.",
+    "TITLE_MICRO_AUTOVIEWS_PART_TWO":"Per micro influencers o account fino a 25k. Fino a 450,000 visualizzazioni al mese",
+ 
+    "ONE_CARD_PRICE_MICRO_AUTOVIEWS":"€ 79.99",
+    "ONE_CARD_MICRO_AUTOVIEWS":"Power 2,5k",
+    "ONE_CARD_ITEM_ONE_MICRO_AUTOVIEWS":"2500 views / post",
+    "ONE_CARD_ITEM_THREE_MICRO_AUTOVIEWS":"fino a 120K views / mese",
+ 
+ 
+    "TWO_CARD_PRICE_MICRO_AUTOVIEWS":"€ 159.99",
+    "TWO_CARD_MICRO_AUTOVIEWS":"Power 5k",
+    "TWO_CARD_ITEM_ONE_MICRO_AUTOVIEWS":"5000 views / post",
+    "TWO_CARD_ITEM_THREE_MICRO_AUTOVIEWS":"fino a 300K views / mese",
+ 
+    
+    "THREE_CARD_PRICE_MICRO_AUTOVIEWS":"€ 239.99",
+    "THREE_CARD_MICRO_AUTOVIEWS":"Power 7,5k",
+    "THREE_CARD_ITEM_ONE_MICRO_AUTOVIEWS":"2500 views / post",
+    "THREE_CARD_ITEM_THREE_MICRO_AUTOVIEWS":"fino a 450K views / mese",
+ 
+ 
+    "TITLE_GIGA_AUTOVIEWS_PART_ONE":"Visibilità assicurata - fino a 1,2 milioni di visualizzazioni al mese.",
+    "TITLE_GIGA_AUTOVIEWS_PART_TWO":"Per influencers o account tra 50k - 100k followers",
+ 
+    "ONE_CARD_GIGA_MICRO_AUTOVIEWS":"€ 299.99",
+    "ONE_CARD_GIGA_AUTOVIEWS":"Giga 10k",
+    "ONE_CARD_ITEM_ONE_GIGA_AUTOVIEWS":"10,000 views / post",
+    "ONE_CARD_ITEM_THREE_GIGA_AUTOVIEWS":"fino a 600K views / mese",
+ 
+    "TWO_CARD_PRICE_GIGA_AUTOVIEWS":"€ 449.99",
+    "TWO_CARD_GIGA_AUTOVIEWS":"Giga 15k",
+    "TWO_CARD_ITEM_THREE_GIGA_AUTOVIEWS":"fino a 900K views / mese",
+ 
+    "THREE_CARD_PRICE_GIGA_AUTOVIEWS":"€ 549.99",
+    "THREE_CARD_GIGA_AUTOVIEWS":"Giga 20k",
+    "THREE_CARD_ITEM_THREE_GIGA_AUTOVIEWS":"fino a 1,2M views / mese",
+ 
+  
+    "TITLE_VIP_AUTOVIEWS_PART_ONE":"Rendi ogni tuo video virale, fino a 6 milioni di views al mese.",
+    "TITLE_VIP_AUTOVIEWS_PART_TWO":"Per VIP Influencers o account con più di 150k followers",
+ 
+    "ONE_CARD_PRICE_VIP_AUTOVIEWS":"€ 669.99",
+    "ONE_CARD_VIP_AUTOVIEWS":"VIP 25k",
+    "ONE_CARD_ITEM_ONE_VIP_AUTOVIEWS":"25,000 views / post",
+    "ONE_CARD_ITEM_THREE_VIP_AUTOVIEWS":"fino a 1,5M views / mese",
+ 
+ 
+    "TWO_CARD_PRICE_VIP_AUTOVIEWS":"€ 1299.99",
+    "TWO_CARD_VIP_AUTOVIEWS":"VIP 50k",
+    "TWO_CARD_ITEM_ONE_VIP_AUTOVIEWS":"50,000 views / post",
+    "TWO_CARD_ITEM_THREE_VIP_AUTOVIEWS":"fino a 3M views / mese",
+ 
+    
+    "THREE_CARD_PRICE_VIP_AUTOVIEWS":"€ 2599.99",
+    "THREE_CARD_VIP_AUTOVIEWS":"VIP 100k",
+    "THREE_CARD_ITEM_ONE_VIP_AUTOVIEWS":"100,000 views / post",
+    "THREE_CARD_ITEM_THREE_VIP_AUTOVIEWS":"fino a 6M views / mese",
+ 
+ 
+ 
+ 
+ 
+    "TITLE_VIP_COMMENTS":"Pacchetti VIP comments",
+ 
+    "ONE_CARD_PRICE_VIP_COMMENTS":"€ 149.99",
+    "ONE_CARD_VIP_COMMENTS":"Petite VIP",
+    "ONE_CARD_ITEM_ONE_VIP_COMMENTS":"5 VIP comments / post",
+    "CARD_ITEM_TWO_VIP_COMMENTS":"copriamo 30 post al mese",
+    "ONE_CARD_ITEM_THREE_VIP_COMMENTS":"fino a 150 commenti / mese",
+    "CARD_ITEM_FOUR_VIP_COMMENTS":"like + saves bonus",
+    "CARD_ITEM_FIVE_VIP_COMMENTS":"profili con +10k followers",
+    "CARD_ITEM_SIX_VIP_COMMENTS":"explore page friendly",
+    "CARD_ITEM_SEVEN_VIP_COMMENTS":"profili privati ",
+    "CARD_ITEM_EIGHT_VIP_COMMENTS":"intelligenza artificiale",
+ 
+    "TWO_CARD_PRICE_VIP_COMMENTS":"€ 299.99",
+    "TWO_CARD_VIP_COMMENTS":"Premium VIP",
+    "TWO_CARD_ITEM_ONE_VIP_COMMENTS":"10 VIP comments / post",
+    "TWO_CARD_ITEM_THREE_VIP_COMMENTS":"fino a 300 commenti / mese",
+    
+    "THREE_CARD_PRICE_VIP_COMMENTS":"€ 449.99",
+    "THREE_CARD_VIP_COMMENTS":"Executive VIP",
+    "THREE_CARD_ITEM_ONE_VIP_COMMENTS":"15 VIP comments / post",
+    "THREE_CARD_ITEM_THREE_VIP_COMMENTS":"fino a 450 commenti / mese",
+ 
+    
+    "TITLE_SMALL_IMPRESSIONS_PART_ONE":"Pacchetti per nano influencers ed account tra 500 e 5000 followers.",
+    "TITLE_SMALL_IMPRESSIONS_PART_TWO":"Raggiungi fino a 100,000 views/mese",
+ 
+    "ONE_CARD_PRICE_SMALL_IMPRESSIONS":"€ 15",
+    "ONE_CARD_SMALL_IMPRESSIONS":"Petite 250",
+    "ONE_CARD_ITEM_ONE_SMALL_IMPRESSIONS":"250 impressions/post",
+    "CARD_ITEM_TWO_SMALL_IMPRESSIONS":"copriamo 90 post / mese",
+    "ONE_CARD_ITEM_THREE_SMALL_IMPRESSIONS":"fino a 23k impressions/mese",
+    "CARD_ITEM_FOUR_SMALL_IMPRESSIONS":"REACH incluso",
+    "CARD_ITEM_FIVE_SMALL_IMPRESSIONS":"explore page friendly",
+    "CARD_ITEM_SIX_SMALL_IMPRESSIONS":"servizio veloce",
+    "CARD_ITEM_SEVEN_SMALL_IMPRESSIONS":"pattern organico",
+    "CARD_ITEM_EIGHT_SMALL_IMPRESSIONS":"100% compatibile con tutti gli altri servizi",
+ 
+ 
+    "TWO_CARD_PRICE_SMALL_IMPRESSIONS":"€ 30",
+    "TWO_CARD_SMALL_IMPRESSIONS":"Petite 500",
+    "TWO_CARD_ITEM_ONE_SMALL_IMPRESSIONS":"500 impressions/post",
+    "TWO_CARD_ITEM_THREE_SMALL_IMPRESSIONS":"fino a 45k impressions/mese",
+ 
+    "THREE_CARD_PRICE_SMALL_IMPRESSIONS":"€ 60",
+    "THREE_CARD_SMALL_IMPRESSIONS":"Petite 1000",
+    "THREE_CARD_ITEM_ONE_SMALL_IMPRESSIONS":"1000 impressions/post",
+    "THREE_CARD_ITEM_THREE_SMALL_IMPRESSIONS":"fino a 90k impressions/mese",
+   
+    "TITLE_MICRO_IMPRESSIONS_PART_ONE":"Creati per far esplodere l’engagement. Per micro influencers o account fino a 20k.",
+    "TITLE_MICRO_IMPRESSIONS_PART_TWO":"Ricevi fino a 450k impressions al mese",
+ 
+    "ONE_CARD_PRICE_MICRO_IMPRESSIONS":"€ 90",
+    "ONE_CARD_MICRO_IMPRESSIONS":"Micro 1500",
+    "ONE_CARD_ITEM_ONE_MICRO_IMPRESSIONS":"1500 impressions/post",
+    "ONE_CARD_ITEM_THREE_MICRO_IMPRESSIONS":"fino a 135k impressions/mese",
+ 
+    "TWO_CARD_PRICE_MICRO_IMPRESSIONS":"€ 150",
+    "TWO_CARD_MICRO_IMPRESSIONS":"Micro 2500",
+    "TWO_CARD_ITEM_ONE_MICRO_IMPRESSIONS":"2500 impressions/post",
+    "TWO_CARD_ITEM_THREE_MICRO_IMPRESSIONS":"fino a 225K impressions/mese",
+ 
+    "THREE_CARD_PRICE_MICRO_IMPRESSIONS":"€ 300",
+    "THREE_CARD_MICRO_IMPRESSIONS":"Micro 5000",
+    "THREE_CARD_ITEM_ONE_MICRO_IMPRESSIONS":"5000 impressions/post",
+    "THREE_CARD_ITEM_THREE_MICRO_IMPRESSIONS":"fino a 450K impressions/mese",
+ 
+ 
+    "TITLE_GIGA_IMPRESSIONS_PART_ONE":"Visibilità assicurata - fino a 4,5 milioni di impression al mese.",
+    "TITLE_GIGA_IMPRESSIONS_PART_TWO":"Per influencers o account tra 25k - 100k followers",
+ 
+    "ONE_CARD_PRICE_GIGA_IMPRESSIONS":"€ 600",
+    "ONE_CARD_GIGA_IMPRESSIONS":"Giga 10k",
+    "ONE_CARD_ITEM_ONE_GIGA_IMPRESSIONS":"10,000 impressions/post",
+    "ONE_CARD_ITEM_THREE_GIGA_IMPRESSIONS":"fino a 900K impressions/mese",
+ 
+    "TWO_CARD_PRICE_GIGA_IMPRESSIONS":"€ 1200",
+    "TWO_CARD_GIGA_IMPRESSIONS":"Giga 25k",
+    "TWO_CARD_ITEM_ONE_GIGA_IMPRESSIONS":"25,000 impressions/post",
+    "TWO_CARD_ITEM_THREE_GIGA_IMPRESSIONS":"fino a 2,5M impressions/mese",
+ 
+    "THREE_CARD_PRICE_GIGA_IMPRESSIONS":"€ 2000",
+    "THREE_CARD_GIGA_IMPRESSIONS":"Giga 50k",
+    "THREE_CARD_ITEM_ONE_GIGA_IMPRESSIONS":"50,000 impressions/post",
+    "THREE_CARD_ITEM_THREE_GIGA_IMPRESSIONS":"fino a 4,5M impressions/mese",
+ 
+ 
+    "TITLE_VIP_IMPRESSIONS_PART_ONE":"Rendi ogni tuo post virale, fino a 15 milioni di impressions al mese.",
+    "TITLE_VIP_IMPRESSIONS_PART_TWO":"Per VIP Influencers o account con più di 150k followers ",
+ 
+    "ONE_CARD_PRICE_VIP_IMPRESSIONS":"€ 3000",
+    "ONE_CARD_VIP_IMPRESSIONS":"VIP 100K",
+    "ONE_CARD_ITEM_ONE_VIP_IMPRESSIONS":"100,000 impressions/post",
+    "ONE_CARD_ITEM_THREE_VIP_IMPRESSIONS":"fino a 9M impressions/mese",
+ 
+    "TWO_CARD_PRICE_VIP_IMPRESSIONS":"€ 4000",
+    "TWO_CARD_VIP_IMPRESSIONS":"VIP 150K",
+    "TWO_CARD_ITEM_ONE_VIP_IMPRESSIONS":"150,000 impressions/post",
+    "TWO_CARD_ITEM_THREE_VIP_IMPRESSIONS":"fino a 13,5M impressions/mese",
+ 
+    "THREE_CARD_PRICE_VIP_IMPRESSIONS":"€ 5000",
+    "THREE_CARD_VIP_IMPRESSIONS":"VIP 250K",
+    "THREE_CARD_ITEM_ONE_VIP_IMPRESSIONS":"150,000 impressions/post",
+    "THREE_CARD_ITEM_THREE_VIP_IMPRESSIONS":"fino a 15M impressions/mese",
+ 
+    "TITLE_SMALL_IGTV_PART_ONE":"Pacchetti per nano influencers o account tra 1500 e 5000 followers.",
+    "TITLE_SMALL_IGTV_PART_TWO":"Raggiungi fino a 60,000 views/mese",
+ 
+    "ONE_CARD_PRICE_SMALL_IGTV":"€ 19.99",
+    "ONE_CARD_SMALL_IGTV":"Petite 250",
+    "ONE_CARD_ITEM_ONE_SMALL_IGTV":"500 views / post",
+    "CARD_ITEM_TWO_SMALL_IGTV":"copriamo 60 post al mese",
+    "ONE_CARD_ITEM_THREE_SMALL_IGTV":"fino a 30K views / mese",
+    "CARD_ITEM_FOUR_SMALL_IGTV":"pattern naturale",
+    "CARD_ITEM_FIVE_SMALL_IGTV":"100% sicuro",
+    "CARD_ITEM_SIX_SMALL_IGTV":"explore page friendly",
+    "CARD_ITEM_SEVEN_SMALL_IGTV":"rilevamento rapido dei post",
+    "CARD_ITEM_EIGHT_SMALL_IGTV":"altissima qualità",
+ 
+    "TWO_CARD_PRICE_SMALL_IGTV":"€ 29.99",
+    "TWO_CARDS_MALL_IGTV":"Petite 750",
+    "TWO_CARD_ITEM_ONE_SMALL_IGTV":"750 views / post",
+    "TWO_CARD_ITEM_THREE_SMALL_IGTV":"fino a 45K views / mese",
+ 
+    "THREE_CARD_PRICE_SMALL_IGTV":"€ 39.99",
+    "THREE_CARDS_MALL_IGTV":"Petite 1000",
+    "THREE_CARD_ITEM_ONE_SMALL_IGTV":"1000 views / post",
+    "THREE_CARD_ITEM_THREE_SMALL_IGTV":"fino a 60K views / mese",
+ 
+    "TITLE_MICRO_IGTV_PART_ONE":"Creati per far esplodere l’engagement. Per micro influencers o account fino a 25k.",
+    "TITLE_MICRO_IGTV_PART_TWO":"Ricevi fino a 450,000 visualizzazioni al mese",
+ 
+    "ONE_CARD_PRICE_MICRO_IGTV":"€ 79.99",
+    "ONE_CARD_MICRO_IGTV":"Micro 2K",
+    "ONE_CARD_ITEM_ONE_MICRO_IGTV":"2000 views / post",
+    "ONE_CARD_ITEM_THREE_MICRO_IGTV":"fino a 120K views / mese",
+ 
+    "TWO_CARD_PRICE_MICRO_IGTV":"€ 169.99",
+    "TWO_CARDS_MICRO_IGTV":"Micro 5K",
+    "TWO_CARD_ITEM_ONE_MICRO_IGTV":"5000 views / post",
+    "TWO_CARD_ITEM_THREE_MICRO_IGTV":"fino a 300K views / mese",
+ 
+    "THREE_CARD_PRICE_MICRO_IGTV":"€ 259.99",
+    "THREE_CARDS_MICRO_IGTV":"Micro 7,5K",
+    "THREE_CARD_ITEM_ONE_MICRO_IGTV":"7500 views / post",
+    "THREE_CARD_ITEM_THREE_MICRO_IGTV":"fino a 450K views / mese",
+ 
+    "TITLE_GIGA_IGTV_PART_ONE":"Visibilità assicurata - fino a 1,2 milioni di visualizzazioni al mese.",
+    "TITLE_GIGA_IGTV_PART_TWO":"Per influencers o account tra 50k - 100k followers",
+ 
+    "ONE_CARD_PRICE_GIGA_IGTV":"€ 339.99",
+    "ONE_CARD_GIGA_IGTV":"Giga 10K",
+    "ONE_CARD_ITEM_ONE_GIGA_IGTV":"10,000 views / post",
+    "ONE_CARD_ITEM_THREE_GIGA_IGTV":"fino a 600K views / mese",
+ 
+    "TWO_CARD_PRICE_GIGA_IGTV":"€ 499.99",
+    "TWO_CARDS_GIGA_IGTV":"Giga 15K",
+    "TWO_CARD_ITEM_ONE_GIGA_IGTV":"10,000 views / post",
+    "TWO_CARD_ITEM_THREE_GIGA_IGTV":"fino a 900K views / mese",
+ 
+    "THREE_CARD_PRICE_GIGA_IGTV":"€ 669.99",
+    "THREE_CARDS_GIGA_IGTV":"Giga 20K",
+    "THREE_CARD_ITEM_ONE_GIGA_IGTV":"20,000 views / post",
+    "THREE_CARD_ITEM_THREE_GIGA_IGTV":"fino a 1,2M views / mese",
+ 
+    "TITLE_VIP_IGTV_PART_ONE":"Rendi ogni tuo video virale, fino a 6 milioni di views al mese.",
+    "TITLE_VIP_IGTV_PART_TWO":"Per VIP Influencers o account con più di 150k followers",
+ 
+    "ONE_CARD_PRICE_VIP_IGTV":"€ 839.99",
+    "ONE_CARD_VIP_IGTV":"VIP 25K",
+    "ONE_CARD_ITEM_ONE_VIP_IGTV":"25,000 views / post",
+    "ONE_CARD_ITEM_THREE_VIP_IGTV":"fino a 1,5M views / mese",
+ 
+    "TWO_CARD_PRICE_VIP_IGTV":"€ 1499.99",
+    "TWO_CARDS_VIP_IGTV":"VIP 50K",
+    "TWO_CARD_ITEM_ONE_VIP_IGTV":"50,000 views / post",
+    "TWO_CARD_ITEM_THREE_VIP_IGTV":"fino a 3M views / mese",
+ 
+    "THREE_CARD_PRICE_VIP_IGTV":"€ 2999.99",
+    "THREE_CARDS_VIP_IGTV":"VIP 100K",
+    "THREE_CARD_ITEM_ONE_VIP_IGTV":"100,000 views / post",
+    "THREE_CARD_ITEM_THREE_VIP_IGTV":"fino a 6M views / mese"
+ 
+ }

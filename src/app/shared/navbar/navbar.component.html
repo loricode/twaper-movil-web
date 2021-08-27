@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+	<div class="container-fluid">
+		<div class="col-xl-2 col-lg-2 col-md-2 col-6 align-self-center">
+				<a class="navbar-brand mt-3" routerLink="/home">
+					<img 
+					   width="160px"
+					   class="img-fluid logo-app"
+						src="../../../assets/img/logo/twaper_logo_horizontal.png"
+						alt="logoAzul"/>			
+				</a>
+				<a class="navbar-brand" routerLink="/home">  
+					<img
+				     class="img-fluid logo-app-dos"  
+					  width="35px"
+					  src="../../../assets/icons/twaper_logo_08.svg"
+					  alt="logoAl"/>
+				</a>
+   	</div>
+
+	   <img
+		   class="navbar-toggler"
+	      type="button"
+	      (click)="logoClick()"
+	      src="../../../assets/icons/menu_lateral_1.png"
+			style="height: 45px;"
+			data-toggl="collapse"
+			data-target="#navbarText"
+			aria-controls="navbarText"
+			aria-expanded="false"
+			aria-label="Toggle navigation" />
+		 	  
+	  <div class="collapse navbar-collapse" id="navbarText">
+		 <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+			<li class="nav-item">
+				<a class="nav-link active" routerLink="/home" routerLinkActive="active">HOME</a>	
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" routerLink="/about">TOOLS</a>
+			</li>
+
+			<li class="nav-item">
+				<a  class="nav-link active" routerLink="/services" routerLinkActive="active" >SERVIZI</a>	
+			</li>
+
+			<li class="nav-item">
+				<a class="nav-link active" routerLink="/services">RISULTATI</a>
+			 </li>
+
+			 <li class="nav-item">
+				<a class="nav-link active" routerLink="/about">BLOG</a>
+			 </li>
+
+			 <li class="nav-item">
+				<a class="nav-link active" routerLink="/services">RISORSE GRATUITE</a>
+			 </li>
+
+			 <li class="nav-item">
+				<a class="nav-link active" routerLink="/services">CONTACT</a>
+			 </li>		
+		 </ul>
+	
+		<span class="navbar-text mr-4" >
+			<app-language></app-language>
+		 </span>
+		 <span class="navbar-text pb-3">
+			<i class="fas fa-user-alt"></i>
+			<a class="ml-1" routerLink="/auth/login">LOGIN</a>
+		 </span>
+	  </div>
+	</div>
+ </nav>
+
+<div *ngIf="show" >
+ <app-sidebar (eventCloseMenu)="closeMenu($event)"></app-sidebar>
+</div>

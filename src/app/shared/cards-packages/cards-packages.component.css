@@ -1,0 +1,226 @@
+.pb-30{
+   padding-bottom: 10px;
+}
+
+.card-seven-item .reels-content .negro{
+  font-weight: 600;
+  color: #000; 
+}
+
+.card-seven-item .reels-content .blaco{
+  font-weight: 600;
+  color: #000; 
+}
+
+
+.imagen-paquete{
+  background-repeat: no-repeat;
+  background-size: 85% 470px;
+  background-position: center center;
+}
+
+.section-title-2 {
+  position: relative;
+  z-index: 1;
+}
+
+.section-title-2 p{
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+.section-title-2 .bars_azul {
+  padding-top: 40px;
+}
+
+.section-title-2 .bars_azul:before {
+  content: "";
+  background: #22D7FC;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 60px;
+}
+
+.section-title-2 .bars_fucsia{
+  padding-top: 40px;
+}
+.section-title-2 .bars_fucsia:before {
+  content: "";
+  background: #FA3CC8;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 60px;
+}
+
+.section-title-2 .bars_morado{
+  padding-top: 40px;
+}
+.section-title-2 .bars_morado:before {
+  content: "";
+  background: #B125EC;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 60px;
+}
+
+.section-title-2 .bars_azul_fuerte{
+  padding-top: 40px;
+}
+.section-title-2 .bars_azul_fuerte:before {
+  content: "";
+  background: #6B5FF5;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 60px;
+}
+ 
+   /*  CARD-SEVEN-ITEM  tarjeta con 7 li */
+.card-seven-item{
+  width: 350px;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+.month{
+  font-size: 0.8rem;
+  margin-left: 8px;
+  padding-bottom: 0%;
+}
+  
+
+
+/* estilo del titulo ubicado en la cabecera de la tarjeta */
+.card-seven-item .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 53px;
+}
+
+/* estilo del precio de la tarjeta */
+.card-seven-item .reels-price h4 {
+  padding-top: 60px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #fff;
+}
+
+/* estilo del subtexto del precio al mese */
+.card-seven-item .reels-price h4 p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+}
+  
+/* estilo del texto del boton comprar */
+.card-seven-item .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 42px;
+  width: 45%;
+  top:28px
+}
+
+
+
+/* tarjeta para paquete vip debido a que la imagen no es iguial de tamaño */
+.card-seven-item-white{
+  width: 350px;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* estilo del titulo ubicado en la cabecera de la tarjeta */
+.card-seven-item-white .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 45px;
+}
+
+.card-seven-item-white .reels-price h4 {
+  padding-top: 49px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.card-seven-item-white .reels-price h4 p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+}
+
+
+.card-seven-item-white .reels-content ul {
+  margin-top: 30px;
+  color: #FFF;
+}
+
+.card-seven-item-white .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.5rem;
+}
+
+/* estilo del texto del boton comprar */
+.card-seven-item-white .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 42px;
+  width: 45%;
+  top:31px
+}
+
+
+
+.reels-content ul {
+  margin-top: 30px;
+}
+
+.reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.5rem;
+}
+
+.ocultar{
+  list-style: none;
+}
+
+ @media (max-width:300px){
+   .imagen-paquete{
+      background-repeat: no-repeat;
+      background-size: 100% 470px;
+      background-position: center center;
+     }
+ }  
+  

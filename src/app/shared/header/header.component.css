@@ -1,0 +1,117 @@
+
+/* 24. Breadcrumb */
+.breadcrumb-area {
+   position: relative;
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .breadcrumb-area {
+     margin-top: 0;
+   }
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .breadcrumb-area {
+     margin-top: 0;
+   }
+ }
+ @media (max-width: 767px) {
+   .breadcrumb-area {
+     margin-top: 0;
+   }
+ }
+ .breadcrumb-area .title {
+   color: #fff;
+   font-size: 90px;
+   line-height: 85px;
+   margin-bottom: 22px;
+   font-family: "Teko", sans-serif;
+   font-weight: 600;
+   text-transform: capitalize;
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .breadcrumb-area .title {
+     font-size: 50px;
+     line-height: 60px;
+   }
+ }
+ @media (max-width: 767px) {
+   .breadcrumb-area .title {
+     font-size: 40px;
+     line-height: 50px;
+   }
+ }
+ .breadcrumb-area ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ .breadcrumb-area ul li {
+   display: inline-block;
+   font-size: 24px;
+   line-height: 38px;
+   font-weight: 500;
+   text-transform: capitalize;
+   color: #fff;
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .breadcrumb-area ul li {
+     font-size: 20px;
+   }
+ }
+ @media (max-width: 767px) {
+   .breadcrumb-area ul li {
+     font-size: 16px;
+   }
+ }
+ .breadcrumb-area ul li:after {
+   content: "||";
+   margin-left: 28px;
+   margin-right: 24px;
+ }
+ @media (min-width: 768px) and (max-width: 991px) {
+   .breadcrumb-area ul li:after {
+     margin-left: 18px;
+     margin-right: 14px;
+   }
+ }
+ @media (max-width: 767px) {
+   .breadcrumb-area ul li:after {
+     margin-left: 10px;
+     margin-right: 6px;
+   }
+ }
+ .breadcrumb-area ul li:last-child:after {
+   display: none;
+ }
+ .breadcrumb-area ul li a {
+   display: inline-block;
+   color: #fff;
+ }
+ .breadcrumb-area ul li a:hover {
+   color: #b125ec;
+ }
+
+.pt-180{
+   padding-top: 100px;
+}
+
+.pb-180{
+   padding-bottom: 180px;
+}
+
+.pt-md-120{
+   padding-top: 120px;
+}
+
+.pb-md-120{
+   padding-bottom: 120px;
+}
+
+.pt-xs-100{
+   padding-top: 100px;
+} 
+
+.pb-xs-100{
+   padding-bottom: 100px;
+}
+
+

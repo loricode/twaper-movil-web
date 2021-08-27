@@ -1,0 +1,16 @@
+<div class="dropdown">
+   <button style="padding-left: 0px;padding-right: 0px;"
+   class="btn btn-light dropdown-toggle" 
+   style="font-size: 18px; font-weight: 600;"
+   type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+     {{selected | uppercase}}
+   </button>
+   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+     <button *ngFor="let item of langs" class="dropdown-item" type="button"
+      (click)="changeLang(item)"
+     >
+         {{item}}
+   </button>
+
+   </div>
+ </div>

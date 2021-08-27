@@ -1,0 +1,190 @@
+<app-navbar></app-navbar>
+<main>
+   <app-header [title]="title" [imagen]="imagen" [subTitle]="subTitle"></app-header>
+   <app-content
+   title="IMPRESSIONS"
+   subTitle="{{ 'SUBTITLE_IMPRESSIONS' | translate }}"
+
+   imagenOne="../../../../assets/img/impressions/impressions_02.png"
+   textUpImagen="{{ 'TEXTUP_IMAGEN_IMPRESSIONS' | translate }}"
+  
+   question="{{'QUESTION_IMPRESSIONS' | translate }}"
+   parrafo="{{ 'PARAGRAPH_IMPRESSIONS' | translate }}"
+
+   listItemOne="{{ 'LIST_ITEM_ONE_IMPRESSIONS' | translate}}"
+   listItemTwo="{{ 'LIST_ITEM_TWO_IMPRESSIONS' | translate }}"
+   listItemThree="{{ 'LIST_ITEM_THREE_IMPRESSIONS' | translate}}"
+   imagenParrafo="../../../../assets/img/impressions/impressions_03.png"
+  
+   TitleDescription="{{'TITLE_DESCRIPTION_ONE_IMPRESSIONS' | translate}}"
+   description="{{ 'DESCRIPTION_ONE_IMPRESSIONS' | translate}}"
+
+   TitleDescriptionTwo="{{ 'TITLE_DESCRIPTION_TWO_IMPRESSIONS' | translate}}"
+   descriptionTwo="{{'DESCRIPTION_TWO_IMPRESSIONS' | translate }}"
+
+   imagenGridOne="../../../../assets/img/impressions/impressions_04.png"
+   imagenGridTwo="../../../../assets/img/impressions/impressions_05.png"
+   imagenGridThree="../../../../assets/img/impressions/impressions_06.png"
+   imagenGridFour="../../../../assets/img/impressions/impressions_07.png"
+   
+   ></app-content>
+
+<!-- 
+
+   <app-sm-packages
+    bars="bars_azul"
+    color="#22D7FC"
+    image='../../../assets/img/img-packages/pachetti_petite.png'
+    title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
+    titleParteOne="{{'TITLE_SMALL_INCLUSIVE_PART_ONE' | translate}}"
+    titleParteTwo="{{'TITLE_SMALL_INCLUSIVE_PART_TWO' | translate}}"
+
+    oneCardPrice="{{ 'ONE_CARD_PRICE_SMALL_IMPRESSIONS' | translate }}"
+    cardMonth="{{'MONTH' | translate }}"
+    oneCardPetite="{{ 'ONE_CARD_SMALL_IMPRESSIONS' | translate }}"
+    oneCardItemOne="{{'ONE_CARD_ITEM_ONE_SMALL_IMPRESSIONS' | translate }}"
+    cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IMPRESSIONS' | translate }}"
+    oneCardItemThree="{{'ONE_CARD_ITEM_THREE_SMALL_IMPRESSIONS' | translate }}"
+    cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IMPRESSIONS' | translate }}"
+    cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IMPRESSIONS' | translate }}"
+    cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IMPRESSIONS' | translate }}"
+    cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IMPRESSIONS' | translate }}"
+    cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_IMPRESSIONS' | translate }}"
+
+
+ twoCardPrice="{{ 'TWO_CARD_PRICE_SMALL_IMPRESSIONS' | translate }}"
+ twoCardPetite="{{ 'TWO_CARD_SMALL_IMPRESSIONS' | translate }}"
+ twoCardItemOne="{{'TWO_CARD_ITEM_ONE_SMALL_IMPRESSIONS' | translate}}"
+
+ twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_SMALL_IMPRESSIONS' | translate }}"
+
+
+ threeCardPrice="{{ 'THREE_CARD_PRICE_SMALL_IMPRESSIONS' | translate }}"
+ threeCardPetite="{{ 'THREE_CARD_SMALL_IMPRESSIONS' | translate }}"
+ threeCardItemOne="{{'THREE_CARD_ITEM_ONE_SMALL_IMPRESSIONS' | translate }}"
+
+ threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_SMALL_IMPRESSIONS' | translate }}"
+
+
+></app-sm-packages>
+
+
+
+<app-sm-packages
+bars="bars_fucsia"
+color="#FA3CC8"
+image='../../../assets/img/img-packages/pachetti_power.png'
+title="{{ 'TITLE_MICRO_PACKAGE' | translate}}"
+titleParteOne="{{'TITLE_MICRO_IMPRESSIONS_PART_ONE' | translate}}"
+titleParteTwo="{{'TITLE_MICRO_IMPRESSIONS_PART_TWO' | translate}}"
+
+oneCardPrice="{{ 'ONE_CARD_PRICE_SMALL_IMPRESSIONS' | translate }}"
+cardMonth="{{'MONTH' | translate }}"
+oneCardPetite="{{ 'ONE_CARD_SMALL_IMPRESSIONS' | translate }}"
+oneCardItemOne="{{'ONE_CARD_ITEM_ONE_SMALL_IMPRESSIONS' | translate }}"
+cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IMPRESSIONS' | translate }}"
+oneCardItemThree="{{'ONE_CARD_ITEM_THREE_SMALL_IMPRESSIONS' | translate }}"
+cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IMPRESSIONS' | translate }}"
+cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IMPRESSIONS' | translate }}"
+cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IMPRESSIONS' | translate }}"
+cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IMPRESSIONS' | translate }}"
+cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_IMPRESSIONS' | translate }}"
+
+
+twoCardPrice="{{ 'TWO_CARD_PRICE_MICRO_IMPRESSIONS' | translate }}"
+twoCardPetite="{{ 'TWO_CARD_MICRO_IMPRESSIONS' | translate }}"
+twoCardItemOne="{{'TWO_CARD_ITEM_ONE_MICRO_IMPRESSIONS' | translate}}"
+
+twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_MICRO_IMPRESSIONS' | translate }}"
+
+
+threeCardPrice="{{ 'THREE_CARD_PRICE_MICRO_IMPRESSIONS' | translate }}"
+threeCardPetite="{{ 'THREE_CARD_MICRO_IMPRESSIONS' | translate }}"
+threeCardItemOne="{{'THREE_CARD_ITEM_ONE_MICRO_IMPRESSIONS' | translate }}"
+
+threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_MICRO_IMPRESSIONS' | translate }}"
+
+
+></app-sm-packages>
+
+ 
+
+<app-sm-packages
+bars="bars_morado"
+color="#B125EC"
+image='../../../assets/img/img-packages/pachetti_giga.png'
+title="{{ 'TITLE_GIGA_PACKAGE' | translate}}"
+titleParteOne="{{'TITLE_GIGA_IMPRESSIONS_PART_ONE' | translate}}"
+titleParteTwo="{{'TITLE_GIGA_IMPRESSIONS_PART_TWO' | translate}}"
+
+oneCardPrice="{{ 'ONE_CARD_PRICE_GIGA_IMPRESSIONS' | translate }}"
+cardMonth="{{'MONTH' | translate }}"
+oneCardPetite="{{ 'ONE_CARD_GIGA_IMPRESSIONS' | translate }}"
+oneCardItemOne="{{'ONE_CARD_ITEM_ONE_GIGA_IMPRESSIONS' | translate }}"
+cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IMPRESSIONS' | translate }}"
+oneCardItemThree="{{'ONE_CARD_ITEM_THREE_GIGA_IMPRESSIONS' | translate }}"
+
+cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IMPRESSIONS' | translate }}"
+cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IMPRESSIONS' | translate }}"
+cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IMPRESSIONS' | translate }}"
+cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IMPRESSIONS' | translate }}"
+cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_IMPRESSIONS' | translate }}"
+
+twoCardPrice="{{ 'TWO_CARD_PRICE_GIGA_IMPRESSIONS' | translate }}"
+twoCardPetite="{{ 'TWO_CARD_GIGA_IMPRESSIONS' | translate }}"
+twoCardItemOne="{{'TWO_CARD_ITEM_ONE_GIGA_IMPRESSIONS' | translate}}"
+
+twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_GIGA_IMPRESSIONS' | translate }}"
+
+
+threeCardPrice="{{ 'THREE_CARD_PRICE_GIGA_IMPRESSIONS' | translate }}"
+threeCardPetite="{{ 'THREE_CARD_GIGA_IMPRESSIONS' | translate }}"
+threeCardItemOne="{{'THREE_CARD_ITEM_ONE_GIGA_IMPRESSIONS' | translate }}"
+
+threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_GIGA_IMPRESSIONS' | translate }}"
+
+
+></app-sm-packages>
+
+
+
+<app-sm-packages
+bars="bars_azul_fuerte"
+color="#6B5FF5"
+image='../../../assets/img/img-packages/pachetti_vip.png'
+title="{{ 'TITLE_VIP_PACKAGE' | translate}}"
+titleParteOne="{{'TITLE_VIP_IMPRESSIONS_PART_ONE' | translate}}"
+titleParteTwo="{{'TITLE_VIP_IMPRESSIONS_PART_TWO' | translate}}"
+
+oneCardPrice="{{ 'ONE_CARD_PRICE_VIP_IMPRESSIONS' | translate }}"
+cardMonth="{{'MONTH' | translate }}"
+oneCardPetite="{{ 'ONE_CARD_VIP_IMPRESSIONS' | translate }}"
+oneCardItemOne="{{'ONE_CARD_ITEM_ONE_VIP_IMPRESSIONS' | translate }}"
+cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IMPRESSIONS' | translate }}"
+oneCardItemThree="{{'ONE_CARD_ITEM_THREE_VIP_IMPRESSIONS' | translate }}"
+
+cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IMPRESSIONS' | translate }}"
+cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IMPRESSIONS' | translate }}"
+cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IMPRESSIONS' | translate }}"
+cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IMPRESSIONS' | translate }}"
+cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_IMPRESSIONS' | translate }}"
+
+
+
+twoCardPrice="{{ 'TWO_CARD_PRICE_VIP_IMPRESSIONS' | translate }}"
+twoCardPetite="{{ 'TWO_CARD_VIP_IMPRESSIONS' | translate }}"
+twoCardItemOne="{{'TWO_CARD_ITEM_ONE_VIP_IMPRESSIONS' | translate}}"
+twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_VIP_IMPRESSIONS' | translate }}"
+
+
+threeCardPrice="{{ 'THREE_CARD_PRICE_VIP_IMPRESSIONS' | translate }}"
+threeCardPetite="{{ 'THREE_CARD_VIP_IMPRESSIONS' | translate }}"
+threeCardItemOne="{{'THREE_CARD_ITEM_ONE_VIP_IMPRESSIONS' | translate }}"
+threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_VIP_IMPRESSIONS' | translate }}"
+
+
+></app-sm-packages> -->
+
+   <app-brand-area></app-brand-area>
+</main>
+<app-footer></app-footer>

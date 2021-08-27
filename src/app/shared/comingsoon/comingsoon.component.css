@@ -1,0 +1,60 @@
+.commingsoon{
+   background-image: url('../../../assets/img/utils/coming_soon_illustration.png');
+   background-size:contain;
+   background-repeat: no-repeat;
+}
+
+
+.title-coming{
+   font-size: 5rem;
+   font-weight: bold;
+   color: gray;
+}
+
+.subtitle-coming{
+   font-size: 1rem;
+   font-weight: bold;
+   color: gray;
+}
+
+
+.botonHome{
+   color: #fff;
+   background-color: #B125EC;
+   border: none;
+   width: 150px;
+   padding: 12px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+.contenedor{
+   padding-bottom: 10px;
+   height: 100px !important;
+ }
+
+.texto-boton{
+   font-size: 1.5rem;
+   position: relative;
+   color: #fff;
+   top:-106%;
+   padding: 25px;
+   width: 285px;
+   margin-left: 22px;
+   
+   z-index: 5;
+}
+
+.img-fluid{
+   width: 330px;
+   border-radius: 0%;
+
+}
+
+.imagen{
+   width: 450px;
+}

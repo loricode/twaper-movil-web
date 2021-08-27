@@ -1,0 +1,49 @@
+<aside class="slide-bar animate__animated animate__fadeInRight">
+	<div class="close-mobile-menu">
+		<a type="button" (click)="handleChangeShowMenu()">
+          <img class="img-fluid" src="../../../assets/img/utils/menu_lateral_back_icon.png" alt="flecha">
+         <!-- <i class="fas fa-times"></i> -->
+      </a>
+	</div>
+	<nav class="side-mobile-menu">
+		<ul id="mobile-menu-active">
+			<li >
+				<a routerLink="/home">HOME</a>
+			</li>
+			<li>
+				<a routerLink="/about">TOOLS</a>
+			</li>
+			<li class="{{showSubMenu ? 'flechaAbajo ' : 'has-children' }} ">
+				<a type="button"  (click)="changeShowSubMenu()">SERVIZI</a>
+				<ul class="sub-menu" *ngIf="showSubMenu">
+					<li><a routerLink="#" >Class Page</a></li>
+					<li><a routerLink="#">Class Two</a></li>
+					<li><a routerLink="#">Class Schedule</a></li>
+					<li><a routerLink="#">Class Details One</a></li>
+				</ul>
+			</li>
+			<li >
+				<a routerLink="#">RISULTATI</a>
+			</li>
+			<li >
+				<a routerLink="#">BLOG</a>
+			</li>
+			<li >
+				<a routerLink="#">RISORSE GRATUITE</a>
+			</li>
+			<li >
+				<a href="#">CONTACT</a>
+			</li>
+		</ul>
+	</nav>
+	
+   <div class="d-flex pt-4 ">
+      <div class="pl-4">
+         <a routerLink="/auth/register" routerLinkActive="active">REGISTER</a>
+      </div>
+      <div  class="pl-5 ">
+         <a routerLink="/auth/login" routerLinkActive="active">LOGIN</a>
+      </div>
+   </div>
+
+</aside>

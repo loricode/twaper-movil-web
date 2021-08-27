@@ -1,0 +1,153 @@
+<app-navbar></app-navbar>
+<main>
+   <app-header [title]="title" [imagen]="imagen" [subTitle]="subTitle"></app-header>
+   <app-content
+   title="Auto Views"
+   subTitle="{{ 'SUBTITLE_AUTOVIEWS' | translate }}"
+
+   imagenOne="../../../../assets/img/autoviews/Auto_views_1.png"
+   textUpImagen="{{ 'TEXTUP_IMAGEN' | translate }}"
+  
+   question="{{'QUESTION_AUTOVIEWS' | translate }}"
+   parrafo="{{ 'PARAGRAPH_AUTOVIEWS' | translate}}"
+
+   listItemOne="{{ 'LIST_ITEM_ONE' | translate}}"
+   listItemTwo="{{ 'LIST_ITEM_TWO' | translate }}"
+   listItemThree="{{ 'LIST_ITEM_THREE' | translate}}"
+   imagenParrafo="../../../../assets/img/autoviews/Auto_views_2.png"
+  
+   TitleDescription="{{'TITLE_DESCRIPTION_ONE' | translate}}"
+   description="{{ 'DESCRIPTION_ONE' | translate}}"
+
+   TitleDescriptionTwo="{{ 'TITLE_DESCRIPTION_TWO' | translate}}"
+   descriptionTwo="{{'DESCRIPTION_TWO' | translate }}"
+
+   imagenGridOne="../../../../assets/img/autoviews/Auto_views_gallery_1.png"
+   imagenGridTwo="../../../../assets/img/autoviews/Auto_views_gallery_3.png"
+   imagenGridThree="../../../../assets/img/autoviews/Auto_views_gallery_2.png"
+   imagenGridFour="../../../../assets/img/autoviews/Auto_views_gallery_4.png"
+
+   ></app-content>
+
+ 
+   <!-- <app-small-packages
+   
+      title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
+      titleParteOne="{{'TITLE_SMALL_AUTOVIEWS_PART_ONE' | translate}}"
+      titleParteTwo="{{'TITLE_SMALL_AUTOVIEWS_PART_TWO' | translate}}"
+
+      oneCardPrice="{{ 'ONE_CARD_PRICE_SMALL_AUTOVIEWS' | translate }}"
+      cardMonth="{{'MONTH' | translate }}"
+      oneCardPetite="{{ 'ONE_CARD_SMALL_AUTOVIEWS' | translate }}"
+      oneCardItemOne="{{'ONE_CARD_ITEM_ONE_SMALL_AUTOVIEWS' | translate }}"
+      cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_AUTOVIEWS' | translate }}"
+      oneCardItemThree="{{'ONE_CARD_ITEM_THREE_SMALL_AUTOVIEWS' | translate }}"
+      cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_AUTOVIEWS' | translate }}"
+      cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_AUTOVIEWS' | translate }}"
+      cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_AUTOVIEWS' | translate }}"
+      cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_AUTOVIEWS' | translate }}"
+      cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_AUTOVIEWS' | translate }}"
+
+      twoCardPrice="{{ 'TWO_CARD_PRICE_SMALL_AUTOVIEWS' | translate }}"
+      twoCardPetite="{{ 'TWO_CARD_SMALL_AUTOVIEWS' | translate }}"
+      twoCardItemOne="{{'TWO_CARD_ITEM_ONE_SMALL_AUTOVIEWS' | translate}}"
+      twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_SMALL_AUTOVIEWS' | translate }}"
+
+      threeCardPrice="{{ 'THREE_CARD_PRICE_SMALL_AUTOVIEWS' | translate }}"
+      threeCardPetite="{{ 'THREE_CARD_SMALL_AUTOVIEWS' | translate }}"
+      threeCardItemOne="{{'THREE_CARD_ITEM_ONE_SMALL_AUTOVIEWS' | translate }}"
+      threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_SMALL_AUTOVIEWS' | translate }}"
+
+   ></app-small-packages>
+
+
+   <app-micro-packages
+   title="{{ 'TITLE_POWER_PACKAGE' | translate}}"
+   titleParteOne="{{'TITLE_MICRO_AUTOVIEWS_PART_ONE' | translate}}"
+   titleParteTwo="{{'TITLE_MICRO_AUTOVIEWS_PART_TWO' | translate}}"
+
+   oneCardPrice="{{ 'ONE_CARD_PRICE_MICRO_AUTOVIEWS' | translate }}"
+   cardMonth="{{'MONTH' | translate }}"
+   oneCardMicro="{{ 'ONE_CARD_MICRO_AUTOVIEWS' | translate }}"
+   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_MICRO_AUTOVIEWS' | translate }}"
+   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_AUTOVIEWS' | translate }}"
+   oneCardItemThree="{{'ONE_CARD_ITEM_THREE_MICRO_AUTOVIEWS' | translate }}"
+   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_AUTOVIEWS' | translate }}"
+   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_AUTOVIEWS' | translate }}"
+   cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_AUTOVIEWS' | translate }}"
+
+   twoCardPrice="{{ 'TWO_CARD_PRICE_MICRO_AUTOVIEWS' | translate }}"
+   twoCardMicro="{{ 'TWO_CARD_MICRO_AUTOVIEWS' | translate }}"
+   twoCardItemOne="{{'TWO_CARD_ITEM_ONE_MICRO_AUTOVIEWS' | translate}}"
+   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_MICRO_AUTOVIEWS' | translate }}"
+
+   threeCardPrice="{{ 'THREE_CARD_PRICE_MICRO_AUTOVIEWS' | translate }}"
+   threeCardMicro="{{ 'THREE_CARD_MICRO_AUTOVIEWS' | translate }}"
+   threeCardItemOne="{{'THREE_CARD_ITEM_ONE_MICRO_AUTOVIEWS' | translate }}"
+   threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_MICRO_AUTOVIEWS' | translate }}"
+   
+   ></app-micro-packages>
+
+   <app-giga-packages
+   
+   title="{{ 'TITLE_GIGA_PACKAGE' | translate}}"
+   titleParteOne="{{'TITLE_GIGA_AUTOVIEWS_PART_ONE' | translate}}"
+   titleParteTwo="{{'TITLE_GIGA_AUTOVIEWS_PART_TWO' | translate}}"
+
+   oneCardPrice="{{ 'ONE_CARD_GIGA_MICRO_AUTOVIEWS' | translate }}"
+   cardMonth="{{'MONTH' | translate }}"
+   oneCardGiga="{{ 'ONE_CARD_GIGA_AUTOVIEWS' | translate }}"
+   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_GIGA_AUTOVIEWS' | translate }}"
+   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_AUTOVIEWS' | translate }}"
+   oneCardItemThree="{{'ONE_CARD_ITEM_THREE_GIGA_AUTOVIEWS' | translate }}"
+   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_AUTOVIEWS' | translate }}"
+   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_AUTOVIEWS' | translate }}"
+   cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_AUTOVIEWS' | translate }}"
+
+   twoCardPrice="{{ 'TWO_CARD_PRICE_GIGA_AUTOVIEWS' | translate }}"
+   twoCardGiga="{{ 'TWO_CARD_GIGA_AUTOVIEWS' | translate }}"
+   twoCardItemOne="{{'ONE_CARD_ITEM_ONE_GIGA_AUTOVIEWS' | translate}}"
+   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_GIGA_AUTOVIEWS' | translate }}"
+
+   threeCardPrice="{{ 'THREE_CARD_PRICE_GIGA_AUTOVIEWS' | translate }}"
+   threeCardGiga="{{ 'THREE_CARD_GIGA_AUTOVIEWS' | translate }}"
+   threeCardItemOne="{{'ONE_CARD_ITEM_ONE_GIGA_AUTOVIEWS' | translate }}"
+   threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_GIGA_AUTOVIEWS' | translate }}"
+
+   ></app-giga-packages>
+   <app-vip-packages [pt]="pt"
+   
+   title="{{ 'TITLE_VIP_PACKAGE' | translate}}"
+   titleParteOne="{{'TITLE_VIP_AUTOVIEWS_PART_ONE' | translate}}"
+   titleParteTwo="{{'TITLE_VIP_AUTOVIEWS_PART_TWO' | translate}}"
+
+   oneCardPrice="{{ 'ONE_CARD_PRICE_VIP_AUTOVIEWS' | translate }}"
+   cardMonth="{{'MONTH' | translate }}"
+   oneCardVip="{{ 'ONE_CARD_VIP_AUTOVIEWS' | translate }}"
+   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_VIP_AUTOVIEWS' | translate }}"
+   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_AUTOVIEWS' | translate }}"
+   oneCardItemThree="{{'ONE_CARD_ITEM_THREE_VIP_AUTOVIEWS' | translate }}"
+   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_AUTOVIEWS' | translate }}"
+   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_AUTOVIEWS' | translate }}"
+   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_AUTOVIEWS' | translate }}"
+   cardItemEight="{{ 'CARD_ITEM_EIGHT_SMALL_AUTOVIEWS' | translate }}"
+
+   twoCardPrice="{{ 'TWO_CARD_PRICE_VIP_AUTOVIEWS' | translate }}"
+   twoCardVip="{{ 'TWO_CARD_VIP_AUTOVIEWS' | translate }}"
+   twoCardItemOne="{{'TWO_CARD_ITEM_ONE_VIP_AUTOVIEWS' | translate}}"
+   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_VIP_AUTOVIEWS' | translate }}"
+
+   threeCardPrice="{{ 'THREE_CARD_PRICE_VIP_AUTOVIEWS' | translate }}"
+   threeCardVip="{{ 'THREE_CARD_VIP_AUTOVIEWS' | translate }}"
+   threeCardItemOne="{{'THREE_CARD_ITEM_ONE_VIP_AUTOVIEWS' | translate }}"
+   threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_VIP_AUTOVIEWS' | translate }}"
+   
+   ></app-vip-packages> -->
+   <app-brand-area></app-brand-area>
+</main>
+<app-footer></app-footer>

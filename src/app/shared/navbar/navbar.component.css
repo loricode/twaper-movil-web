@@ -1,0 +1,108 @@
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .1rem 1rem !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+   color: #B125EC;
+ }
+
+ .navbar-text{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  font-family: Segoe UI Black !important;
+  font-weight: 600;
+  color: #333333 !;
+  text-transform: uppercase;
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 20px;
+  line-height: 1;
+  font-family: Segoe UI Black !important;
+  font-weight: 600;
+  color: #333333 !;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) { 
+
+  .logo-app {
+    margin-bottom: 6%;
+  }
+}
+
+.align-items-center {
+  -ms-flex-align: center!important;
+   align-items: center!important;
+}
+
+.pr-60 {
+   padding-right: 60px;
+ }
+
+.pl-10{
+    padding-left: 10px;
+ }
+
+.mr-auto .mx-auto {
+  margin-right: 50px!important;
+}
+
+.navbar-brand  .logo-app-dos {
+  display: none;
+}
+
+
+@media (max-width: 1105px) { 
+  .mr-auto .mx-auto {
+    margin-right: auto !important;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 0.8rem;  
+  }
+
+   .navbar-text{ 
+    font-size: 0.8rem;  
+   }
+}
+
+
+@media (max-width: 600px) {
+
+  .navbar-brand  .logo-app {
+    display: none;
+   }
+
+  .navbar-brand .logo-app-dos {
+    position: relative;
+    display: block;
+    left: -60%;
+    width: 38px;
+   }   
+}
+
+
+@media (max-width: 300px) {
+  .col-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    right: -5%;
+ } 
+  
+}

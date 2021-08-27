@@ -1,0 +1,173 @@
+.pricing-area .section-title-2 h3 {
+   width: 100%;
+ }
+ @media (min-width: 992px) and (max-width: 1200px) {
+   .pricing-area .section-title-2 h3 {
+     width: 480px;
+   }
+ }
+ @media (max-width: 767px) {
+   .pricing-area .section-title-2 h3 {
+     width: 300px;
+   }
+ }
+
+.bg-fix {
+   background-image: url("../../../../assets/img/img-home/home_bkg_05.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+ 
+}
+
+.pt-90{
+   padding-top: 90px;
+}
+
+
+.pt-80{
+   padding-top: 80px;
+}
+
+.pb-10 {
+   padding-bottom: 10px;
+ } 
+ 
+ .section-title-2 .bars:before {
+  content: "";
+  background: #B125EC;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 17px;
+  margin: 0 auto;
+}
+
+.section-title-2.text-center  h3:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+ .mb-30 {
+   margin-bottom: 30px;
+ }
+
+ .mt-30 {
+   margin-top: 30px;
+ }
+
+.pricing-wrap {
+   position: relative;
+   border-top: 5px solid #B125EC;
+   background: #fff;
+   text-align: center;
+   z-index: 1;
+ }
+
+ .pricing-wrap .shape {
+   content: "";
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: -1;
+   text-align: center;
+ }
+
+ .popular .popular-badge {
+  position: relative;
+  background:#B125EC ; 
+  width: 100%;
+  color: #B125EC;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+
+ .pricing-wrap h3 {
+   font-size: 40px;
+   line-height: 40px;
+   font-weight: 600;
+   color: #29282d;
+   letter-spacing: 2px;
+   margin-bottom: 20px;
+ }
+
+ .pricing-wrap p {
+   color: #8e8e8e;
+   font-size: 16px;
+   line-height: 28px;
+   margin: 0;
+ }
+
+
+ 
+ .pricing-wrap {
+   border-top: 3px solid #B125EC;
+   overflow: hidden;
+ }
+
+ .pricing-wrap  .read-more {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s linear 0s;
+}
+
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.movil-bars{
+  height: 2px;
+  width: 20%;
+  background-color: #FA3CC8;
+}
+
+.title-movil-pricing{
+  font-weight: 600;
+  font-family: "Teko", sans-serif;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #0D0D60;
+}
+
+.area-movil{
+  display: none;
+}
+
+@media (max-width: 575.98px) { 
+  .area-movil{
+    display: block;
+  }
+  
+ 
+  .section-title-2 h3{
+    font-size: 1rem;
+  }
+
+  .pricing-area{
+    display: none;
+  } 
+
+  .pricing-area  .section-title-2   h3{
+    width: 240px;
+  }  
+
+  .movil-bars{
+    height: 2px;
+    width: 15%;
+    background-color: #FA3CC8;
+  }
+  
+
+}

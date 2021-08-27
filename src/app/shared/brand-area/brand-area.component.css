@@ -1,0 +1,19 @@
+.bk-image-brand{
+   background-image: url('../../../assets/img/img-home/home_bkg_09.png');
+   position: relative;
+   background-size: 100% 138px;
+   background-repeat: no-repeat;
+}
+
+.content-imagen{
+   width: max-content;
+   align-self: center;
+   padding: 10px 30px;
+}
+
+
+@media (max-width: 575.98px){
+   .bk-image-brand{
+      display: none;
+   }
+}
