@@ -1,4 +1,4 @@
-export const sidebarItemData: any = {
+export const packagesItemData: any = {
    reels: {
      packageSmall: [
        {
@@ -1364,6 +1364,6 @@ export const sidebarItemData: any = {
  };
  
  const getItemPackage = (key: Action) => {
-   return { ...sidebarItemData[key] };
+   return { ...packagesItemData[key] };
  };
  
