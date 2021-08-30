@@ -1,3 +1,4 @@
+
 body::-webkit-scrollbar {
    width: 8px;     /* Tamaño del scroll en vertical */
    height: 8px;    /* Tamaño del scroll en horizontal */
@@ -178,92 +179,42 @@ body::-webkit-scrollbar-thumb:active {
    background-color:#fff
  }
 
- @media (max-width: 2472px) {
-   .email{
-       font-size: 0.7rem;
-       outline: none;
-       width: 51rem; 
-       /* background-color: red;  */
-   }
-   .tamanio{
-      width: 70%;
-      background-color:#fff
-    }
+ @media (max-width: 2572px) {
+   .email{ font-size: 0.7rem; outline: none;  width: 100%; }
+   
+   .tamanio{ width: 70%; background-color:#fff }
+   
+   .textfiel{ font-size: 0.7rem; outline: none; width: 39rem;}
 
-    .textfiel{
-      font-size: 0.7rem;
-      outline: none;
-      width: 39rem;
-  }
+   .loginwebpr{ padding-right: 19rem; }
 
-    .loginwebpr{
-      padding-right: 19rem;
-   }
-
-   .webpolicy{
-      float: right !important;
-      padding-right: 19rem !important;
-   }   
+   .webpolicy{ float: right !important; padding-right: 19rem !important;}   
 }
 
 
-
-
  @media (max-width: 2220px) {
-   .email{
-       font-size: 0.7rem;
-       outline: none;
-       width: 45rem; 
-       /* background-color: blue;  */
-   }
-   .tamanio{
-      width: 70%;
-      background-color:#fff
-    }
+   .email{ font-size: 0.7rem; outline: none; width: 100%; }
 
-    .textfiel{
-      font-size: 0.7rem;
-      outline: none;
-      width: 39rem;
-  }
+   .tamanio{ width: 70%; background-color:#fff }
 
-    .loginwebpr{
-      padding-right: 17rem;
-   }
+   .textfiel{ font-size: 0.7rem; outline: none; width: 39rem; }
 
-   .webpolicy{
-      float: right !important;
-      padding-right: 16rem !important;
-   }   
+   .loginwebpr{ padding-right: 17rem; }
+
+   .webpolicy{ float: right !important; padding-right: 16rem !important; }   
 }
 
 
  @media (max-width: 1920px) {
-   .email{
-       font-size: 0.7rem;
-       outline: none;
-       width: 39rem; 
-       /* background-color: #B125EC;  */
-   }
-   .tamanio{
-      width: 70%;
-      background-color:#fff
-    }
+   .email{ font-size: 0.7rem; outline: none; width: 100%; }
 
-    .textfiel{
-      font-size: 0.7rem;
-      outline: none;
-      width: 39rem;
-  }
+   .tamanio{ width: 68%; background-color:#fff }
 
-    .loginwebpr{
-      padding-right: 12rem;
-   }
+   .textfiel{ font-size: 0.7rem; outline: none; width: 100%; }
 
-   .webpolicy{
-      float: right !important;
-      padding-right: 12rem !important;
-   }   
+   .loginwebpr{ padding-right: 32%; }
+
+   .webpolicy{ float: right !important; padding-right: 58% !important; }   
 }
 
 
@@ -401,6 +352,67 @@ body::-webkit-scrollbar-thumb:active {
    box-shadow: 0 0 5px rgba(0,0,0,.15);
 }
 
+/* style carousel testimonial */
+.movil-testimonial-carousel .carousel-arrows .carousel-arrow-prev{
+   left: 27% !important;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+
+}
+
+.movil-testimonial-carousel .carousel-arrows .carousel-arrow-next{
+   right: 27% !important;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+}
+
+.movil-testimonial-carousel .carousel-arrow {
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   background-repeat: no-repeat;
+   background-size: 31px;
+   background-position: 90%;
+   border-radius: 100px;
+   position: absolute;
+   top: 75% !important;
+   margin-top: -10px;
+   z-index: 10;
+   cursor: pointer;
+   box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+
+.movil-service-carousel .carousel-arrows .carousel-arrow-prev{
+   left: 28% !important;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+}
+
+.movil-service-carousel .carousel-arrows .carousel-arrow-next{
+   right: 28% !important;
+   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNDEgMTYuNTlMMTAuODMgMTJsNC41OC00LjU5TDE0IDZsLTYgNiA2IDYgMS40MS0xLjQxeiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMFYweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==");
+   border: 2px solid #B125EC;
+}
+
+.movil-service-carousel .carousel-arrow {
+   width: 40px;
+   height: 40px;
+   background-color: #fff;
+   background-repeat: no-repeat;
+   background-size: 31px;
+   background-position: 90%;
+   border-radius: 100px;
+   position: absolute;
+   top: 115% !important;
+   margin-top: -10px;
+   z-index: 10;
+   cursor: pointer;
+   box-shadow: 0 0 5px rgba(0,0,0,.15);
+}
+
+
+
 }
 
 
@@ -433,4 +445,137 @@ body::-webkit-scrollbar-thumb:active {
       cursor: pointer;
       box-shadow: 0 0 5px rgba(0,0,0,.15);
    }
+}
+
+
+.dropdown-menu {
+   position: absolute;
+   top: 120%;
+   left: -120% !important;
+   z-index: 1000;
+   display: none;
+   float: right;
+   min-width: 4rem !important;
+   padding: .5rem 0;
+   margin: .125rem 0 0;
+   font-size: 1rem;
+   color: #212529;
+   text-align: left;
+   list-style: none;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid rgba(0,0,0,.15);
+   border-radius: .25rem;
+}
+
+
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor:before {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   bottom: 0;
+   width: 100%;
+   height: 8px;
+   background: rgb(95,194,245);
+   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   border-radius: 3px;
+   z-index: 0;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a:hover {
+   color: #bbb;
+   background: #f5f5f5;
+   border-width: 0px !important;
+}
+
+.ng-wizard-theme-circles>ul.step-anchor>li.active>a {
+   border-color:#fff !important;
+   color: #fff;
+   background: #22dffc !important;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border:none !important;
+   background: #f5f5f5;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   padding: 17px 0;
+   border-radius: 50%;
+   box-shadow:none !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+}
+
+
+.ng-wizard-theme-circles>ul.step-anchor>li.done>a {
+   border-color: #5cb85c;
+   color: #fff;
+   background: #B125EC !important;
+}
+
+.mycustomwizard  .justify-content-end {
+   -ms-flex-pack: end!important;
+   justify-content: space-around!important;
+}
+
+.mycustomwizard  .btn-group .btn-group-vertical {
+   position: relative;
+   display: -ms-inline-flexbox;
+   display: block;
+}
+
+.mycustomwizard .ng-wizard-btn-prev {
+   margin-left: 2%;
+   margin-right: 180px;  
+   padding: 5px 50px;
+   border-radius: 10px;
+   color: #0a0a0a;
+   background-color: #939494;
+   opacity: 0.5;
+   border: none;
+   font-weight: bold;
+}
+
+.mycustomwizard  .ng-wizard-btn-next{
+   background-color: #22dffc;
+   padding: 5px 50px;
+   border-radius: 10px;
+   border: none;
+   font-weight: bold;
+}
+/* .mycustomwizard  .mr-2 {
+   margin-right: 2rem!important;
+} */
+
+.mycustomwizard  .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+}
+
+.mycustomwizard  .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+   border-top-left-radius:12px;
+   border-bottom-left-radius: 12px;
+}
+
+.mycustomwizard .ng-wizard-theme-circles > ul{ 
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-align: center !important;
+      justify-content: center !important;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li {
+   border: none;
+   margin-left: 25px;
+   z-index: 98;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles .ng-wizard-toolbar {
+   background: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 5% !important;
 }

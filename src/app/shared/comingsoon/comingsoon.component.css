@@ -45,16 +45,39 @@
    padding: 25px;
    width: 285px;
    margin-left: 22px;
-   
    z-index: 5;
 }
 
 .img-fluid{
    width: 330px;
    border-radius: 0%;
-
 }
 
 .imagen{
    width: 450px;
+}
+
+
+@media (max-width: 575.98px) { 
+   .imagen{
+      width: 100%;
+   }
+   .title-coming{
+      font-size: 3rem;
+      font-weight: bold;
+      color: gray;
+   }
+
+}
+
+@media (max-width: 325.98px) { 
+   .imagen{
+      width: 100%;
+   }
+   .title-coming{
+      font-size: 2rem;
+      font-weight: bold;
+      color: gray;
+   }
+
 }

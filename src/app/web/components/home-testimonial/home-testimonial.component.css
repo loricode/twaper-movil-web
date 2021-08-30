@@ -108,8 +108,6 @@
    color: #fff;
    font-size: 22px;
    line-height: 40px;
-   font-weight: 600;
-   font-family: "Teko", sans-serif;
  }
  @media (min-width: 768px) and (max-width: 991px) {
    .testimonial-wrap-2 .testimonial-content p {
@@ -216,27 +214,60 @@
 
 @media (max-width: 575.98px) {
   
+
+
   .movil-testimonial-area{
     display: block;
     background-color: #0D0D60;
-    height: 90vh;
+    height: 109vh;
   }
 
   .bk-image{
     display: none;
   }
 
+  .testimonial-wrap-2 {
+    padding-top: 34px;
+    position: relative;
+  }
+
   .testimonial-wrap-2 .testimonial-content p {
     color: #fff;
-    font-size: 15px;
-    line-height: 17px;
-    font-family: "Teko", sans-serif;
-    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* font-family: "Teko", sans-serif; */
+  }
+
+  .swiper-slide{
+    padding-right: 2%;
   }
 
   .swiper-slide .redondo{
     border-radius: 50%;
+    background: rgb(95,245,190);
+    background: linear-gradient(135deg, rgba(95,245,190,1) 1%, rgba(34,215,252,1) 16%, rgba(95,108,245,1) 55%);
+    /* background: rgb(34,215,252);
+    background: linear-gradient(135deg, rgba(34,215,252,1) 12%, rgba(107,95,245,1) 55%); */
+    /* background: rgb(34,215,252);
+    background: linear-gradient(135deg, rgba(34,215,252,1) 12%, rgba(107,95,245,1) 100%); */
+    /* background: rgb(34,215,252);
+    background: linear-gradient(180deg, rgba(34,215,252,1) 12%, rgba(107,95,245,1) 100%); */
   }
+  .swiper-slide-pequenio{
+    display: flex;
+    justify-content: center;
+    width: 40px;height: 40px;
+    background: rgb(95,245,190);
+    background: linear-gradient(135deg, rgba(95,245,190,1) 1%, rgba(34,215,252,1) 16%, rgba(95,108,245,1) 55%);
+    border-radius: 50%;
+  
+  }
+
+  .testimonial-wrap-2 .author-info h4 span {
+    font-size: 12px;
+    color: #b2b2b2;
+  }
+
 
 }
 

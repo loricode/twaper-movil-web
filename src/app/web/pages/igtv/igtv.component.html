@@ -28,132 +28,56 @@
    imagenGridFour="../../../../assets/img/igtv/igtv_08.png"
    
    ></app-content>
-  
-
-
-  
-   <!-- <app-small-packages
    
-   title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
-   titleParteOne="{{'TITLE_SMALL_IGTV_PART_ONE' | translate}}"
-   titleParteTwo="{{'TITLE_SMALL_IGTV_PART_TWO' | translate}}"
-
-   oneCardPrice="{{ 'ONE_CARD_PRICE_SMALL_IGTV' | translate }}"
-   cardMonth="{{'MONTH' | translate }}"
-   oneCardPetite="{{ 'ONE_CARD_SMALL_IGTV' | translate }}"
-   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_SMALL_IGTV' | translate }}"
-   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IGTV' | translate }}"
-   oneCardItemThree="{{'ONE_CARD_ITEM_THREE_SMALL_IGTV' | translate }}"
-   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IGTV' | translate }}"
-   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IGTV' | translate }}"
-   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IGTV' | translate }}"
-   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IGTV' | translate }}"
-   cardItemEight="{{'CARD_ITEM_EIGHT_SMALL_IGTV' | translate }}"
-
-   twoCardPrice="{{ 'TWO_CARD_PRICE_SMALL_IGTV' | translate }}"
-   twoCardPetite="{{ 'TWO_CARDS_MALL_IGTV' | translate }}"
-   twoCardItemOne="{{'TWO_CARD_ITEM_ONE_SMALL_IGTV' | translate}}"
-   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_SMALL_IGTV' | translate }}"
-
-   threeCardPrice="{{ 'THREE_CARD_PRICE_SMALL_IGTV' | translate }}"
-   threeCardPetite="{{ 'THREE_CARDS_MALL_IGTV' | translate }}"
-   threeCardItemOne="{{'THREE_CARD_ITEM_ONE_SMALL_IGTV' | translate }}"
-   threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_SMALL_IGTV' | translate }}"
-   
-   ></app-small-packages>
-
-   <app-micro-packages
-   title="{{ 'TITLE_MICRO_PACKAGE' | translate}}"
-   titleParteOne="{{'TITLE_SMALL_PACKAGE_PART_ONE' | translate}}"
-   titleParteTwo="{{'TITLE_SMALL_PACKAGE_PART_TWO' | translate}}"
-
-   oneCardPrice="{{ 'ONE_CARD_PRICE_MICRO_IGTV' | translate }}"
-   cardMonth="{{'MONTH' | translate }}"
-   oneCardMicro="{{ 'ONE_CARD_MICRO_IGTV' | translate }}"
-   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_MICRO_IGTV' | translate }}"
-   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IGTV' | translate }}"
-   oneCardItemThree="{{'ONE_CARD_ITEM_THREE_MICRO_IGTV' | translate }}"
-   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IGTV' | translate }}"
-   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IGTV' | translate }}"
-   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IGTV' | translate }}"
-   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IGTV' | translate }}"
-   cardItemEight="{{'CARD_ITEM_EIGHT_SMALL_IGTV' | translate }}"
-
-   twoCardPrice="{{ 'TWO_CARD_PRICE_MICRO_IGTV' | translate }}"
-   twoCardMicro="{{ 'TWO_CARDS_MICRO_IGTV' | translate }}"
-   twoCardItemOne="{{'TWO_CARD_ITEM_ONE_MICRO_IGTV' | translate}}"
-   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_MICRO_IGTV' | translate }}"
-
-   threeCardPrice="{{ 'THREE_CARD_PRICE_MICRO_IGTV' | translate }}"
-   threeCardMicro="{{ 'THREE_CARDS_MICRO_IGTV' | translate }}"
-   threeCardItemOne="{{'THREE_CARD_ITEM_ONE_MICRO_IGTV' | translate }}"
-   threeCardItemThree= "{{'THREE_CARD_ITEM_THREE_MICRO_IGTV' | translate }}"
-   
-   ></app-micro-packages>
-
-   <app-giga-packages
+       <!-- paquete smalll o  Petite -->
+       <app-cards-packages 
+       cardStyle="card-seven-item"
+       fontStyle="negro"
+       bars="bars_azul"
+       image='../../../assets/img/autosaves/pacchetti_petite.png'
+       title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
+       titleParteOne="{{'TITLE_SMALL_IGTV_PART_ONE' | translate}}"
+       titleParteTwo="{{'TITLE_SMALL_IGTV_PART_TWO' | translate}}"
+       [paquetes]="paquetes.paquetesSmall"
+    ></app-cards-packages>
     
-      title="{{ 'TITLE_GIGA_PACKAGE' | translate }}"
-      titleParteOne="{{'TITLE_GIGA_IGTV_PART_ONE' | translate}}"
-      titleParteTwo="{{'TITLE_GIGA_IGTV_PART_TWO' | translate}}"
+    <!-- paquete micro -->
+    <app-cards-packages 
+       cardStyle="card-seven-item"
+       fontStyle="negro"
+       bars="bars_fucsia"
+       image='../../../assets/img/autosaves/pacchetti_micro.png'
+       title="{{ 'TITLE_MICRO_PACKAGE' | translate}}"
+       titleParteOne="{{'TITLE_SMALL_PACKAGE_PART_ONE' | translate}}"
+       titleParteTwo="{{'TITLE_SMALL_PACKAGE_PART_TWO' | translate}}"
+       [paquetes]="paquetes.paquetesMicro"
+    ></app-cards-packages>
+    
+    <!-- paquete Giga -->
+    <app-cards-packages 
+       cardStyle="card-seven-item"
+       fontStyle="negro"
+       bars="bars_morado"
+       image='../../../assets/img/autosaves/pacchetti_giga.png'
+       title="{{ 'TITLE_GIGA_PACKAGE' | translate}}"
+       titleParteOne="{{'TITLE_GIGA_IGTV_PART_ONE' | translate}}"
+       titleParteTwo="{{'TITLE_GIGA_IGTV_PART_TWO' | translate}}"
+       [paquetes]="paquetes.paquetesGiga"
+    ></app-cards-packages>
+    
+    
+    <!-- paquete Vip -->
+    <app-cards-packages 
+       cardStyle="card-seven-item-white"
+       fontStyle="negro"
+       bars="bars_azul_fuerte"
+       image='../../../assets/img/autosaves/pacchetti_vip.png'
+       title="{{ 'TITLE_VIP_PACKAGE' | translate}}"
+       titleParteOne="{{'TITLE_VIP_IGTV_PART_ONE' | translate}}"
+       titleParteTwo="{{'TITLE_VIP_IGTV_PART_TWO' | translate}}"
+       [paquetes]="paquetes.paquetesGiga"
+    ></app-cards-packages>
 
-      oneCardPrice="{{ 'ONE_CARD_PRICE_GIGA_IGTV' | translate }}"
-      cardMonth="{{'MONTH' | translate }}"
-      oneCardGiga="{{ 'ONE_CARD_GIGA_IGTV' | translate }}"
-      
-      oneCardItemOne="{{'ONE_CARD_ITEM_ONE_GIGA_IGTV' | translate }}"
-      cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IGTV' | translate }}"
-      oneCardItemThree="{{ 'ONE_CARD_ITEM_THREE_GIGA_IGTV' | translate }}"
-
-      cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IGTV' | translate }}"
-      cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IGTV' | translate }}"
-      cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IGTV' | translate }}"
-      cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IGTV' | translate }}"
-      cardItemEight="{{'CARD_ITEM_EIGHT_SMALL_IGTV' | translate }}"
-
-      twoCardPrice="{{ 'TWO_CARD_PRICE_GIGA_IGTV' | translate }}"
-      twoCardGiga="{{ 'TWO_CARDS_GIGA_IGTV' | translate }}"
-      twoCardItemOne="{{'TWO_CARD_ITEM_ONE_GIGA_IGTV' | translate}}"
-      twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_GIGA_IGTV' | translate }}"
-
-      threeCardPrice="{{ 'THREE_CARD_PRICE_GIGA_IGTV' | translate }}"
-      threeCardGiga="{{ 'THREE_CARDS_GIGA_IGTV' | translate }}"
-      threeCardItemOne="{{'THREE_CARD_ITEM_ONE_GIGA_IGTV' | translate}}"
-      threeCardItemThree="{{'THREE_CARD_ITEM_THREE_GIGA_IGTV' | translate }}"
-      
-   
-   ></app-giga-packages>
-   <app-vip-packages [pt]="pt"
-   
-   title="{{ 'TITLE_VIP_PACKAGE' | translate }}"
-   titleParteOne="{{'TITLE_VIP_IGTV_PART_ONE' | translate}}"
-   titleParteTwo="{{'TITLE_VIP_IGTV_PART_TWO' | translate}}"
-
-   oneCardPrice="{{ 'ONE_CARD_PRICE_VIP_IGTV' | translate }}"
-   cardMonth="{{'MONTH' | translate }}"
-   oneCardVip="{{ 'ONE_CARD_VIP_IGTV' | translate }}"
-   
-   oneCardItemOne="{{'ONE_CARD_ITEM_ONE_VIP_IGTV' | translate }}"
-   cardItemTwo="{{ 'CARD_ITEM_TWO_SMALL_IGTV' | translate }}"
-   oneCardItemThree="{{ 'ONE_CARD_ITEM_THREE_VIP_IGTV' | translate }}"
-
-   cardItemFour="{{ 'CARD_ITEM_FOUR_SMALL_IGTV' | translate }}"
-   cardItemFive="{{ 'CARD_ITEM_FIVE_SMALL_IGTV' | translate }}"
-   cardItemSix="{{ 'CARD_ITEM_SIX_SMALL_IGTV' | translate }}"
-   cardItemSeven="{{ 'CARD_ITEM_SEVEN_SMALL_IGTV' | translate }}"
-   cardItemEight="{{'CARD_ITEM_EIGHT_SMALL_IGTV' | translate }}"
-
-   twoCardPrice="{{ 'TWO_CARD_PRICE_VIP_IGTV' | translate }}"
-   twoCardVip="{{ 'TWO_CARDS_VIP_IGTV' | translate }}"
-   twoCardItemOne="{{'TWO_CARD_ITEM_ONE_VIP_IGTV' | translate}}"
-   twoCardItemThree= "{{'TWO_CARD_ITEM_THREE_VIP_IGTV' | translate }}"
-
-   threeCardPrice="{{ 'THREE_CARD_PRICE_VIP_IGTV' | translate }}"
-   threeCardVip="{{ 'THREE_CARDS_VIP_IGTV' | translate }}"
-   threeCardItemOne="{{'THREE_CARD_ITEM_ONE_VIP_IGTV' | translate}}"
-   threeCardItemThree="{{'THREE_CARD_ITEM_THREE_VIP_IGTV' | translate }}"
-   
-   ></app-vip-packages> -->
    <app-brand-area></app-brand-area>
 </main>
 <app-footer></app-footer>

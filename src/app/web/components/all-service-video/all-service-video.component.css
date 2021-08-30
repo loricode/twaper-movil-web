@@ -186,6 +186,38 @@
      margin-top: 20px;
    }
  }
+
+ @media (max-width: 575.98px) {
+  .class-area .class-video .video-hover h3 {
+    font-size: 1.2rem;
+    line-height: 16px;
+  }
+  
+  .class-area{
+    background-color: #ecf7fa;
+  }
+
+  .mb-xs-60{   
+    margin-bottom: 33%;
+  }
+
+  .class-area .class-content  h3 {
+    color: #000;
+    font-size: 2rem;
+    line-height: 34px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.pt-22{
+  padding-top: 20%;
+}
+
+}
+
+
+
+
  @media (min-width: 320px) and (max-width: 425px) {
    .class-area .class-video .video-hover h3 {
      font-size: 22px;

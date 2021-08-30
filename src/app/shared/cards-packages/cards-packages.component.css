@@ -44,6 +44,21 @@
   margin-left: 60px;
 }
 
+.section-title-2 .bars_azul_vip {
+  padding-top: 40px;
+}
+
+.section-title-2 .bars_azul_vip:before {
+  content: "";
+  background: #22D7FC;
+  width: 50px;
+  height: 4px;
+  align-self: center;
+  position: absolute;
+  top: 0px;
+  margin-left: 11%;
+}
+
 .section-title-2 .bars_fucsia{
   padding-top: 40px;
 }
@@ -96,7 +111,7 @@
 
 .month{
   font-size: 0.8rem;
-  margin-left: 8px;
+  margin-left: 18%;
   padding-bottom: 0%;
 }
   
@@ -123,22 +138,26 @@
 }
 
 /* estilo del subtexto del precio al mese */
-.card-seven-item .reels-price h4 p {
-  font-size: 0.7rem;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #fff;
-}
-  
+
 /* estilo del texto del boton comprar */
 .card-seven-item .reels-sale p{
   color: #FFF;
   width: auto;
   position: relative;
   text-align: center;
-  margin-left: 42px;
+  margin-left: 14%;
   width: 45%;
-  top:28px
+  top:30px
+}
+
+.card-seven-item .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.5rem;
+}
+
+.card-seven-item .reels-content ul {
+  margin-top: 30px;
 }
 
 
@@ -170,12 +189,7 @@
   color: #fff;
 }
 
-.card-seven-item-white .reels-price h4 p {
-  font-size: 0.7rem;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #fff;
-}
+
 
 
 .card-seven-item-white .reels-content ul {
@@ -195,32 +209,421 @@
   width: auto;
   position: relative;
   text-align: center;
-  margin-left: 42px;
+  margin-left: 15%;
   width: 45%;
-  top:31px
+  top:35px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+/*  STYLE CARD OF 10 ITEM */
+.card-tem-item{
+  width: 350px;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+.card-tem-item .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 28%;
+  top: 50px;
+}
+
+.card-tem-item  .reels-price h4 {
+  padding-top: 20%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 12%;
+  color: #fff;
 }
 
 
-
-.reels-content ul {
-  margin-top: 30px;
+.card-tem-item .reels-content ul {
+  margin-top: 5%;
+  color: #000;
 }
 
-.reels-content ul li {
+.card-tem-item .reels-content ul li {
   font-size: 0.7rem;
   width: 60%;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
 }
+
+/* estilo del texto del boton comprar */
+.card-tem-item .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:30px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+
+/* tarjeta para paquete vip debido a que la imagen no es iguial de tamaño */
+.card-tem-item-white{
+  width: 350px;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* estilo del titulo ubicado en la cabecera de la tarjeta */
+.card-tem-item-white .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 45px;
+}
+
+/* precio del paquete sale con el simbolo de euro */
+.card-tem-item-white .reels-price h4 {
+  padding-top: 18%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 12%;
+  color: #fff;
+}
+
+
+/* estilo del texto del boton comprar */
+.card-tem-item-white .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:40px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+.card-tem-item-white .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.2rem;
+}
+
+.card-tem-item-white .reels-content ul {
+  margin-top: 10%;
+  color: #FFF;
+}
+
+/* tamaño de la tarjeta */
+.card-seven-item-height{
+  width: 100%;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* estilo del titulo ubicado en la cabecera de la tarjeta */
+.card-seven-item-height .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 45px;
+}
+
+/* precio del paquete sale con el simbolo de euro */
+.card-seven-item-height .reels-price h4 {
+  padding-top: 21%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 17%;
+  color: #fff;
+}
+
+/* estilo del texto del boton comprar */
+.card-seven-item-height .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:57px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+.card-seven-item-height .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.2rem;
+}
+
+.card-seven-item-height .reels-content ul {
+  margin-top: 10%;
+  color: #000;
+}
+
+/* estilo tarjeta vip imagen mas pequeña posion de texto diferente */
+/* tamaño de la tarjeta */
+.card-seven-item-height-white {
+  width: 100%;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* estilo del titulo ubicado en la cabecera de la tarjeta */
+.card-seven-item-height-white  .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 45px;
+}
+
+/* precio del paquete sale con el simbolo de euro */
+.card-seven-item-height-white  .reels-price h4 {
+  padding-top: 18%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 12%;
+  color: #fff;
+}
+
+/* estilo del texto del boton comprar */
+.card-seven-item-height-white .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:58px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+.card-seven-item-height-white  .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.2rem;
+}
+
+.card-seven-item-height-white  .reels-content ul {
+  margin-top: 10%;
+  color: #FFF;
+}
+
+.card-eight-item{
+  width: 100%;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* titulo de la paquete */
+.card-eight-item .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 50px;
+}
+
+/* precio del paquete sale con el simbolo de euro */
+.card-eight-item  .reels-price h4 {
+  padding-top: 21%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 23%;
+  color: #fff;
+}
+
+.card-eight-item  .month{
+  font-size: 0.8rem;
+  margin-left: 10%;
+  padding-bottom: 0%;
+}
+
+/* estilo del texto del boton comprar */
+.card-eight-item  .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:40px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+.card-eight-item  .reels-content ul li {
+  font-size: 0.7rem;
+  width: 60%;
+  line-height: 1.2rem;
+}
+
+.card-eight-item  .reels-content ul {
+  margin-top: 10%;
+  color: #000;
+}
+
+
+/* STYLE LETRA BLANCA EN LA TARJETA DIMENSION Y POSION DE TEXTO */
+.card-eight-item-white{
+  width: 100%;
+  height: 500px;
+  padding-left: 70px;
+  z-index: 1;
+}
+
+/* titulo de la paquete */
+.card-eight-item-white .reels-title h4{
+  position: relative;
+  font-size: 19px;
+  font-weight: 600;
+  color: #FFF;
+  text-align: center;
+  margin-right: 70px;
+  top: 50px;
+}
+
+/* precio del paquete sale con el simbolo de euro */
+.card-eight-item-white  .reels-price h4 {
+  padding-top: 19%;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 23%;
+  color: #fff;
+}
+
+.card-eight-item-white .month{
+  font-size: 0.8rem;
+  margin-left: 10%;
+  padding-bottom: 0%;
+}
+
+/* estilo del texto del boton comprar */
+.card-eight-item-white .reels-sale p{
+  color: #FFF;
+  width: auto;
+  position: relative;
+  text-align: center;
+  margin-left: 15%;
+  width: 45%;
+  top:65px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+}
+
+.card-eight-item-white  .reels-content ul li {
+  font-size: 0.7rem;
+  width: 67%;
+  line-height: 1.2rem;
+}
+
+.card-eight-item-white .reels-content ul {
+  margin-top: 7%;
+  color: #fff;
+  margin-inline-start: 0px;
+  margin-block-start: 0px;
+}
+
 
 .ocultar{
   list-style: none;
 }
 
- @media (max-width:300px){
-   .imagen-paquete{
-      background-repeat: no-repeat;
-      background-size: 100% 470px;
-      background-position: center center;
-     }
- }  
+/* media dispositivo 640 a 360 */
+@media (max-width: 575.98px) {
+  .imagen-paquete{
+    background-repeat: no-repeat;
+    background-size: 100% 470px;
+    background-position: center center;
+  }
+
+  .card-seven-item{
+    width: 100%;
+    height: 500px;
+    padding-left: 60px;
+    z-index: 1;
+  }
+
+  .card-seven-item .reels-content  ul  li {
+    font-size: 0.7rem;
+    width: 80%;
+    line-height: 1.5rem;
+  }
+
+  .card-seven-item-white{
+    width: 100%;
+    height: 500px;
+    padding-left: 60px;
+    z-index: 1;
+}
+
+  .card-seven-item-white .reels-content  ul  li {
+    font-size: 0.7rem;
+    width: 80%;
+    line-height: 1.5rem;
+  }
+
+  .card-seven-item-white .reels-sale p{
+    color: #FFF;
+    width: auto;
+    position: relative;
+    text-align: center;
+    margin-left: 15%;
+    width: 45%;
+    top:33px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  }
   
+  
+  .card-tem-item{
+    width: 100%;
+    height: 500px;
+    padding-left: 70px;
+    z-index: 1;
+  }
+
+  .card-tem-item .reels-price h4 {
+    padding-top: 23%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 7%;
+    color: #fff;
+  }
+  
+
+
+  .card-tem-item-white{
+    width: 100%;
+    height: 500px;
+    padding-left: 70px;
+    z-index: 1;
+  }
+  
+ 
+  .card-tem-item-white .reels-price h4 {
+    padding-top: 21%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 7%;
+    color: #fff;
+  }
+
+  
+ 
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0rem;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+}
+
+
+}   

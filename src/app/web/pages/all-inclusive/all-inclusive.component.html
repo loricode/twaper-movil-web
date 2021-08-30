@@ -35,7 +35,54 @@
    ></app-content>
 
 
-   
+   <!-- paquete smalll o  Petite -->
+   <app-cards-packages 
+      cardStyle="card-tem-item"
+      fontStyle="negro"
+      bars="bars_azul"
+      image='../../../assets/img/autosaves/pacchetti_petite.png'
+      title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
+      titleParteOne="{{'TITLE_SMALL_PACKAGE_LIKES_PART_ONE' | translate}}"
+      titleParteTwo="{{'TITLE_SMALL_PACKAGE_LIKES_PART_TWO' | translate}}"
+      [paquetes]="paquetes.paquetesSmall"
+   ></app-cards-packages>
+      
+      <!-- paquete micro -->
+      <app-cards-packages 
+         cardStyle="card-tem-item"
+         fontStyle="negro"
+         bars="bars_fucsia"
+         image='../../../assets/img/autosaves/pacchetti_micro.png'
+         title="{{ 'TITLE_MICRO_PACKAGE' | translate}}"
+         titleParteOne="{{'TITLE_MICRO_PACKAGE_LIKES_PART_ONE' | translate}}"
+         titleParteTwo="{{'TITLE_MICRO_PACKAGE_LIKES_PART_TWO' | translate}}"
+         [paquetes]="paquetes.paquetesMicro"
+      ></app-cards-packages>
+      
+      <!-- paquete Giga -->
+      <app-cards-packages 
+         cardStyle="card-tem-item"
+         fontStyle="negro"
+         bars="bars_morado"
+         image='../../../assets/img/autosaves/pacchetti_giga.png'
+         title="{{ 'TITLE_GIGA_PACKAGE' | translate}}"
+         titleParteOne="{{'TITLE_GIGA_PACKAGE_LIKES_PART_ONE' | translate}}"
+         titleParteTwo="{{'TITLE_GIGA_PACKAGE_LIKES_PART_TWO' | translate}}"
+         [paquetes]="paquetes.paquetesGiga"
+      ></app-cards-packages>
+      
+      
+      <!-- paquete Vip -->
+      <app-cards-packages 
+         cardStyle="card-tem-item-white"
+         fontStyle="negro"
+         bars="bars_azul_fuerte"
+         image='../../../assets/img/autosaves/pacchetti_vip.png'
+         title="{{ 'TITLE_VIP_PACKAGE' | translate}}"
+         titleParteOne="{{'TITLE_VIP_PACKAGE_LIKES_PART_ONE' | translate}}"
+         titleParteTwo="{{'TITLE_VIP_PACKAGE_LIKES_PART_TWO' | translate}}"
+         [paquetes]="paquetes.paquetesGiga"
+      ></app-cards-packages>
 
 
 

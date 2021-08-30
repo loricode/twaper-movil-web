@@ -36,6 +36,16 @@
 }
 
 
+@media (max-width: 575.98px) {
+
+   .email{
+      font-size: 0.7rem;
+      outline: none;
+      width: 100%;    
+  }
+}
+
+
 @media (max-width: 300px){
    .containerboton{
       position: absolute;

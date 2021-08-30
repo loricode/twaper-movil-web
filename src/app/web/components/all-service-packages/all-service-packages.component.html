@@ -41,3 +41,59 @@
    </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="movil-area-service-packages">
+   <div class="container">
+      <div class="row justify-content-center pt-2">
+         <div class="col-xl-12 col-lg-12">
+            <div class="section-title-2 bar-theme-color text-white text-center mb-60">
+               <hr class="movil-bars">
+               <h3>
+                  Un mix di ingredienti di qualità <br>
+                  Scegli il tuo pacchetto
+               </h3>
+            </div>
+         </div>
+      </div>
+
+      <div class="container">
+         <carousel     
+            class="movil-service-carousel" [cellsToShow]="1" [cellWidth]="'100%'"
+            style="height: 320px;position: relative;z-index: 500;">
+
+            <div class="carousel-cell" *ngFor="let item of items">
+               <div class="swiper-slide single-slide">
+                  <div class="service-wrap-3">
+                     <div class="service-icon">
+                        <div class="icon">
+                           <img class="img-fluid" style="width: 50px;" [src]="item.image" alt="igtv">
+                        </div>
+                        <div class="num">{{item.id}}</div>
+                     </div>
+                     <div class="service-content">
+                        <h3 style="font-size: 0.9rem;"><a routerLink="{{item.url}}">{{item.title}}</a></h3>
+                        <p>
+                           {{item.description}}
+                        </p>
+                        <a routerLink="{{item.url}}" class="read-more">
+                           Read more <i class="fas fa-angle-double-right"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </carousel>
+      </div>
+   </div>
+
+</div>

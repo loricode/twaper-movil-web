@@ -1,0 +1,38 @@
+
+
+<div class="container pt-4">
+   
+  <div class="d-flex justify-content-center mb-4">
+    <div>
+      <img class="img-fluid" width="40" src="../../../../assets/icons/twaper_logo_08.svg" alt="ww">
+    </div> 
+  </div>
+ 
+  <div class="d-flex justify-content-center"> 
+  </div>
+</div>
+     <ng-wizard class="mycustomwizard" [config]="config" (stepChanged)="stepChanged($event)">
+  
+      <ng-wizard-step [title]="'1'" 
+        [canEnter]="isValidTypeBoolean" [canExit]="isValidFunctionReturnsBoolean.bind(this)">
+        <app-step-one-pasarela></app-step-one-pasarela>
+      </ng-wizard-step>
+   
+      <ng-wizard-step [title]="'2'">
+        <app-step-two-pasarela></app-step-two-pasarela>
+      </ng-wizard-step>
+      
+      <ng-wizard-step [title]="'3'" 
+        [canEnter]="isValidFunctionReturnsObservable.bind(this)" [canExit]="isValidFunctionReturnsBoolean.bind(this)">
+        <app-step-three-pasarela></app-step-three-pasarela>
+      </ng-wizard-step>
+  
+      <ng-wizard-step [title]="'4'" >
+        <app-step-four-pasarela></app-step-four-pasarela>
+      </ng-wizard-step>
+      
+      <ng-wizard-step [title]="'5'" >
+        <app-step-five-pasarela></app-step-five-pasarela>
+      </ng-wizard-step>
+   
+ </ng-wizard>

@@ -14,19 +14,19 @@
 				<a routerLink="/about">TOOLS</a>
 			</li>
 			<li class="{{showSubMenu ? 'flechaAbajo ' : 'has-children' }} ">
-				<a type="button"  (click)="changeShowSubMenu()">SERVIZI</a>
-				<ul class="sub-menu" *ngIf="showSubMenu">
-					<li><a routerLink="#" >Class Page</a></li>
-					<li><a routerLink="#">Class Two</a></li>
-					<li><a routerLink="#">Class Schedule</a></li>
-					<li><a routerLink="#">Class Details One</a></li>
+				<a type="button" (click)="changeShowSubMenu()">SERVIZI</a>
+				<ul class="sub-menu" *ngIf="showSubMenu"  >
+					<li><a routerLink="/reels" >Reels Visibility</a></li>
+					<li><a routerLink="/autolikes">Like Automatici</a></li>
+					<li><a routerLink="/inclusive">All Inclusive</a></li>
+					<li><a routerLink="/autosaves">Saves Automatic</a></li>
 				</ul>
 			</li>
 			<li >
 				<a routerLink="#">RISULTATI</a>
 			</li>
 			<li >
-				<a routerLink="#">BLOG</a>
+				<a routerLink="/about">BLOG</a>
 			</li>
 			<li >
 				<a routerLink="#">RISORSE GRATUITE</a>

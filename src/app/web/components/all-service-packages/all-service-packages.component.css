@@ -147,3 +147,53 @@
  .service-wrap-3 .service-content .read-more:hover {
    color: #B125EC;
  }
+
+
+ .movil-area-service-packages{
+   display: none;
+ }
+
+ .movil-bars{
+  height: 2px;
+  width: 20%;
+  background-color: #FA3CC8;
+}
+
+
+ @media (max-width: 575.98px) { 
+
+  .movil-area-service-packages{
+    display: block;
+    background: rgb(95,245,190);
+    background: linear-gradient(167deg, rgba(95,245,190,1) 0%, rgba(95,108,245,1) 26%, rgba(106,107,245,1) 48%, rgba(243,95,245,1) 86%);
+    height: 104vh;
+  }
+
+  .service-area-2 {
+    display: none;
+  }
+
+  .service-wrap-3 .service-content p {
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+ }
+
+ @media (max-width: 320.98px) { 
+
+  .movil-area-service-packages{
+    display: block;
+    background: rgb(95,245,190);
+    background: linear-gradient(167deg, rgba(95,245,190,1) 0%, rgba(95,108,245,1) 26%, rgba(106,107,245,1) 48%, rgba(243,95,245,1) 86%);
+    height: 107vh;
+  }
+
+  .service-area-2 {
+    display: none;
+  }
+  
+
+ }

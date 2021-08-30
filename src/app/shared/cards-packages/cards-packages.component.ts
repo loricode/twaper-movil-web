@@ -6,7 +6,11 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./cards-packages.component.css']
 })
 export class CardsPackagesComponent implements OnInit {
+
   
+  @Input() paquetes:       any = []
+
+
   @Input() cardStyle:       string = ""
   @Input() fontStyle:        string = "" 
   @Input() bars:            string = ""  
@@ -38,12 +42,16 @@ export class CardsPackagesComponent implements OnInit {
   @Input() threeCardItemOne:   string = ""
   @Input() threeCardItemThree: string = ""
  
-  constructor() { }
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
+    console.log(this.paquetes)
   }
 
   public payPackage():void{
+    
     console.log("click")
   }
 

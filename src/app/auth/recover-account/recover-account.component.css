@@ -3,6 +3,12 @@
    border-radius: 12px !important;
 }
 
+.movil-txtfiel:focus{
+  outline: none;
+  box-shadow: none; 
+}
+
+
 
 .botonlogin{
    color: #fff;

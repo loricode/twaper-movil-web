@@ -216,10 +216,54 @@
    max-width: 20%;
 }
 
+.movil-bars{
+  height: 2px;
+  width: 20%;
+  background-color: #FA3CC8;
+}
+
+.vista-movil-free-resource{
+  display: none;
+}
 
 @media (max-width: 575.98px) { 
 
   .bk-image{
     display: none;
   }
+
+  .section-title-2 span {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600;
+    font-family: "Teko", sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #0d0d60;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+ .vista-movil-free-resource{
+    display: block;
+ }
+}
+
+
+.btn-gra {
+  color: #fff;
+  background-image: linear-gradient(to right, #22D7FC , #B125EC, #FA3CC8);
+}
+
+.btn {
+  padding: 12px 20%;
+  border-radius: 0;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }

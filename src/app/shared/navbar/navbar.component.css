@@ -36,12 +36,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) { 
-
-  .logo-app {
-    margin-bottom: 6%;
-  }
-}
+@media (min-width: 1200px) and (max-width: 1500px) { }
 
 .align-items-center {
   -ms-flex-align: center!important;
@@ -59,6 +54,8 @@
 .mr-auto .mx-auto {
   margin-right: 50px!important;
 }
+
+
 
 .navbar-brand  .logo-app-dos {
   display: none;
@@ -90,7 +87,6 @@
     position: relative;
     display: block;
     left: -60%;
-    width: 38px;
    }   
 }
 

@@ -16,6 +16,7 @@ import { CardsPackagesComponent } from './cards-packages/cards-packages.componen
 import { ComingsoonComponent } from './comingsoon/comingsoon.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 
+
 @NgModule({
   declarations: [
       BrandAreaComponent,
@@ -26,7 +27,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
       ContentComponent,
       CardsPackagesComponent,
       ComingsoonComponent,
-      SidebarComponent 
+      SidebarComponent,
   ],
   imports: [
     CommonModule,
@@ -43,7 +44,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ContentComponent,
     CardsPackagesComponent,
     ComingsoonComponent,
-    SidebarComponent 
+    SidebarComponent
   ]
 })
 export class SharedModule { }

@@ -52,8 +52,55 @@
    imagenGridThree="../../../../assets/img/autosaves/auto_saves_gallery3.png"
    imagenGridFour="../../../../assets/img/autosaves/auto_saves_gallery4.png"
   ></app-content>
- >
- 
+  
+     <!-- paquete smalll o  Petite -->
+     <app-cards-packages 
+     cardStyle="card-seven-item-height"
+     fontStyle="negro"
+     bars="bars_azul"
+     image='../../../assets/img/autosaves/pacchetti_petite.png'
+     title="{{ 'TITLE_SMALL_PACKAGE' | translate}}"
+     titleParteOne="{{'SUBTITLE_AUTOSAVES_PART_ONE' | translate}}"
+     titleParteTwo="{{'SUBTITLE_AUTOSAVES_PART_TWO' | translate}}"
+     [paquetes]="paquetes.paquetesSmall"
+  ></app-cards-packages>
+
+ <!-- paquete micro -->
+  <app-cards-packages 
+     cardStyle="card-seven-item-height"
+     fontStyle="negro"
+     bars="bars_fucsia"
+     image='../../../assets/img/autosaves/pacchetti_micro.png'
+     title="{{ 'TITLE_MICRO_PACKAGE' | translate}}"
+     titleParteOne="{{'SUBTITLE_AUTOSAVES_MICRO_PART_ONE' | translate}}"
+     titleParteTwo="{{'SUBTITLE_AUTOSAVES_MICRO_PART_TWO' | translate}}"
+     [paquetes]="paquetes.paquetesMicro"
+  ></app-cards-packages>
+
+  <!-- paquete Giga -->
+  <app-cards-packages 
+     cardStyle="card-seven-item-height"
+     fontStyle="negro"
+     bars="bars_morado"
+     image='../../../assets/img/autosaves/pacchetti_giga.png'
+     title="{{ 'TITLE_GIGA_PACKAGE' | translate}}"
+     titleParteOne="{{'SUBTITLE_AUTOSAVES_GIGA_PART_ONE' | translate}}"
+     titleParteTwo="{{'SUBTITLE_AUTOSAVES_GIGA_PART_TWO' | translate}}"
+     [paquetes]="paquetes.paquetesGiga"
+ ></app-cards-packages>
+
+
+  <!-- paquete Vip -->
+  <app-cards-packages 
+     cardStyle="card-seven-item-height-white"
+     fontStyle="negro"
+     bars="bars_azul_fuerte"
+     image='../../../assets/img/autosaves/pacchetti_vip.png'
+     title="{{ 'TITLE_VIP_PACKAGE' | translate}}"
+     titleParteOne="{{'SUBTITLE_AUTOSAVES_VIP_PART_ONE' | translate}}"
+     titleParteTwo="{{'SUBTITLE_AUTOSAVES_VIP_PART_TWO' | translate}}"
+     [paquetes]="paquetes.paquetesVip"
+ ></app-cards-packages>
 
 
    <app-brand-area></app-brand-area>

@@ -684,6 +684,15 @@
    "THREE_CARD_PRICE_VIP_IGTV":"€ 2999.99",
    "THREE_CARDS_VIP_IGTV":"VIP 100K",
    "THREE_CARD_ITEM_ONE_VIP_IGTV":"100,000 views / post",
-   "THREE_CARD_ITEM_THREE_VIP_IGTV":"fino a 6M views / mese"
+   "THREE_CARD_ITEM_THREE_VIP_IGTV":"fino a 6M views / mese",
 
+   "SUBTITLE_AUTOSAVES_PART_ONE":"Per account tra 500 e 5000 followers.",
+   "SUBTITLE_AUTOSAVES_PART_TWO":"Ricevi fino a 9,000 saves/mese.",
+   "SUBTITLE_AUTOSAVES_MICRO_PART_ONE":"Creati per far esplodere l’engagement. Per micro influencers o account fino a 20k followers.",
+   "SUBTITLE_AUTOSAVES_MICRO_PART_TWO":"Ricevi fino a 45,000 saves al mese ",
+   "SUBTITLE_AUTOSAVES_GIGA_PART_ONE":"Visibilità assicurata per influencers o account tra 25k - 100k followers. ",
+   "SUBTITLE_AUTOSAVES_GIGA_PART_TWO":"Ricevi fino a 300,000 saves mensili",
+   "SUBTITLE_AUTOSAVES_VIP_PART_ONE":"Rendi ogni tuo post virale.",
+   "SUBTITLE_AUTOSAVES_VIP_PART_TWO":"Per VIP Influencers o account con più di 150k followers "
+   
 }

@@ -170,3 +170,19 @@
    color: #8e8e8e;
  }
  
+ .movil-area-about{
+   display: none;
+} 
+ 
+
+ @media (max-width: 575.98px) { 
+
+   .bg-fix-about{
+      display: none;
+   }
+
+   .movil-area-about{
+     display: block;
+   } 
+
+ }

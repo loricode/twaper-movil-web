@@ -14,9 +14,54 @@
          </div>
       </div>
 
-      <div class="row">
+    <div class="row">
+    
+      <div class="col-md-4 col-sm-4" *ngFor="let paquete of paquetes">
+         <div class="imagen-paquete" style="background-image: url({{image}});">
+            <div class="{{cardStyle}}">
+               <div class="reels-title">
+                  <h4>{{paquete.namePackage}}</h4>     
+               </div>
+               <div class="reels-price" >
+                  <h4>{{paquete.price}}<br>
+                     <p class="month">
+                       {{paquete.messageMonth}}
+                     </p>
+                  </h4>
+               </div>
+               <div class="reels-content">
+                  <ul>
+                     <li class="{{fontStyle}}">
+                      {{paquete.itemOne}}
+                     </li>
+                     <li>{{paquete.itemTwo}}</li>
+                     <li class="{{fontStyle}}" >
+                        {{paquete.itemThree}}
+                     </li>
+                     <li>{{paquete.itemFour}}</li>
+                     <li>{{paquete.itemFive}}</li>
+                     <li>{{paquete.itemSix}}</li>
+                     <li>{{paquete.itemSeven}}</li>
+                     <li class="{{ paquete.itemEight  ? 'mostrar' : 'ocultar'}}" >
+                        {{paquete.itemEight }}
+                    </li>
+                    <li class="{{ paquete.itemNine  ? 'mostrar' : 'ocultar'}}" >
+                     {{paquete.itemNine }}
+                    </li>
+                    <li class="{{ paquete.itemTem  ? 'mostrar' : 'ocultar'}}" >
+                     {{paquete.itemTem }}
+                    </li>
+                  </ul>
+               </div>
+               <div class ="reels-sale">
+                  <p type="button" (click)="payPackage()">{{ 'CARD_BUTTON' | translate }}</p>
+                </div>   
+         </div> 
+      </div>
+     
 
-        <div class="col-md-4 ">
+<!-- 
+        <div class="col-md-4 col-sm-4">
          <div  class="imagen-paquete" style="background-image: url({{image}});">
             <div class="{{cardStyle}}">
                <div class="reels-title">
@@ -51,8 +96,6 @@
             </div>
          </div>
       </div>
-     <!-- card 1 -->
-
      
      <div class="col-md-4">
       <div class="imagen-paquete" style="background-image: url({{image}});">
@@ -90,7 +133,7 @@
          </div>
       </div>
    </div>
-  <!-- card 2 -->
+
 
   <div class="col-md-4">
    <div class="imagen-paquete" style="background-image: url({{image}});">
@@ -123,11 +166,11 @@
           </div>
       </div>
    </div>
-</div>
-<!-- card 3 -->
+</div> -->
+
        
    
-      </div>
+      </div> 
    </div>
 </div>
 
