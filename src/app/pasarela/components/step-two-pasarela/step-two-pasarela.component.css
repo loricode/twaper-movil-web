@@ -1,0 +1,47 @@
+.card-step-2-size{
+   width: 30%;
+   border-radius: 12px;
+}
+
+.text-size-card-price {
+  font-size: 1.1rem;
+  opacity: 0.6;
+}
+
+.text-size-card-attention{
+   font-size: 0.8rem;
+   opacity: 0.6;
+}
+
+.title-card-attention{
+  padding-top: 3%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.card-content-attention{
+  width: 30%;
+  border-radius: 12px;
+}
+
+@media (max-width: 575.98px) { 
+  .card-step-2-size{
+    width: 90%;
+  }
+  .card-content-attention{
+    width: 90%;
+  }
+
+  /* .card-step-2-size ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0 !important;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+
+  
+}

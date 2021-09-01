@@ -1,0 +1,59 @@
+.txtinput{
+   background-color: #FFF;
+   width: 100%;  
+   border-radius:12px;
+}
+
+.card-payment{
+  border: 2px solid #22D7FC;
+  background-color: #fff9f9;
+  border-radius: 12px;
+}
+
+.card-payment .title-txtinput{
+   font-size: 0.7rem;
+   margin-left: 2%;
+}
+
+.form-control:focus{
+   outline: none;
+   box-shadow: none;
+} 
+
+.btn-primary{
+   margin-top: 4%;
+   margin-bottom: 4%;
+   background-color: #22D7FC;
+   color:#fff;
+   border-color: #22D7FC;
+   font-weight: bold;
+   border-radius: 12px;
+   font-size: 0.7rem;
+   width: 80%;
+}
+
+.linea-margin{
+   margin-top: 0%;
+   margin-bottom: 0%;
+}
+
+.content-subtitle{
+   border-radius: 12px;
+   background-color: #22D7FC;
+   color:#FFF ;
+   padding: 5px;
+}
+
+.s-price{
+  margin: auto;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.mycol .col-4{
+   padding-left: 0% !important;
+} 
+
+.mycol .col-8{
+   padding-right: 0% !important;
+} 

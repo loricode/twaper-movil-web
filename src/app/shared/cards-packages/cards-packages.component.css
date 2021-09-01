@@ -1,6 +1,4 @@
-.pb-30{
-   padding-bottom: 10px;
-}
+.pb-30{ padding-bottom: 10px; }
 
 .card-seven-item .reels-content .negro{
   font-weight: 600;
@@ -12,17 +10,13 @@
   color: #000; 
 }
 
-
 .imagen-paquete{
   background-repeat: no-repeat;
   background-size: 85% 470px;
   background-position: center center;
 }
 
-.section-title-2 {
-  position: relative;
-  z-index: 1;
-}
+.section-title-2 { position: relative; z-index: 1; }
 
 .section-title-2 p{
   padding-bottom: 0%;
@@ -147,7 +141,7 @@
   text-align: center;
   margin-left: 14%;
   width: 45%;
-  top:30px
+  top:27px
 }
 
 .card-seven-item .reels-content ul li {
@@ -211,7 +205,7 @@
   text-align: center;
   margin-left: 15%;
   width: 45%;
-  top:35px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  top:30px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
 }
 
 /*  STYLE CARD OF 10 ITEM */
@@ -268,7 +262,7 @@
 .card-tem-item-white{
   width: 350px;
   height: 500px;
-  padding-left: 70px;
+  padding-left: 19%;
   z-index: 1;
 }
 
@@ -301,7 +295,7 @@
   text-align: center;
   margin-left: 15%;
   width: 45%;
-  top:40px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  top:35px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
 }
 
 .card-tem-item-white .reels-content ul li {
@@ -351,7 +345,7 @@
   text-align: center;
   margin-left: 15%;
   width: 45%;
-  top:57px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  top:56px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
 }
 
 .card-seven-item-height .reels-content ul li {
@@ -402,7 +396,7 @@
   text-align: center;
   margin-left: 15%;
   width: 45%;
-  top:58px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  top:56px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
 }
 
 .card-seven-item-height-white  .reels-content ul li {
@@ -415,6 +409,8 @@
   margin-top: 10%;
   color: #FFF;
 }
+
+
 
 .card-eight-item{
   width: 100%;
@@ -457,7 +453,7 @@
   text-align: center;
   margin-left: 15%;
   width: 45%;
-  top:40px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
+  top:37px;  /* no me deja posicionar en terminos de porcentaje en lugar del boton*/
 }
 
 .card-eight-item  .reels-content ul li {
@@ -535,8 +531,22 @@
   list-style: none;
 }
 
+/* .card-vista-movil{
+  display: none;
+}  */
+
 /* media dispositivo 640 a 360 */
 @media (max-width: 575.98px) {
+  
+  /* .card-vista-movil{
+    display: block;
+  } 
+
+  .process-area-2{
+    display: none;
+  } 
+   */
+
   .imagen-paquete{
     background-repeat: no-repeat;
     background-size: 100% 470px;
@@ -595,8 +605,6 @@
     color: #fff;
   }
   
-
-
   .card-tem-item-white{
     width: 100%;
     height: 500px;
@@ -614,7 +622,6 @@
   }
 
   
- 
   ul {
     display: block;
     list-style-type: disc;

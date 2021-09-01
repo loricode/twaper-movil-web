@@ -1,11 +1,11 @@
 <app-navbar></app-navbar> 
-<main>
-<div class="container pt-3 loginmovil">
+ <main>  
+  <div class="container pt-3 loginmovil">
    <div class="row justify-content-center pt-3">
        <div class="col-lg-4 col-sm-12">
            <div class="mb-1">       
                    <div class="py-1">
-                       <form [formGroup]="authForm">
+                       <form [formGroup]="myForm">
                         <div class="card-body px-2">  
                              <div class="d-flex justify-content-start pb-0 pt-3">
                                 <h5>Login</h5>
@@ -17,21 +17,17 @@
                                   placeholder="Email"
                                   style="font-size: 0.7rem;"
                                   type="text"
-                                  class="form-control border-0 email"
-                               />    
+                                  class="form-control border-0 email"/>    
                              </div>
 
                              <div class="mb-1 d-flex border p-1 rounded">  
-                        
                                <input
                                   formControlName="password"
                                   placeholder="Password"
                                   style="font-size: 0.7rem;"
                                   autocomplete="on"
                                   type="password"
-                                  class="form-control border-0 password"    
-                               />   
-                               
+                                  class="form-control border-0 password"/>   
                              </div>
 
                              <div class="row justify-content-between pb-3">
@@ -55,7 +51,9 @@
                                                        
                            </div>
                            <div class="d-flex justify-content-center">     
-                               <button class="botonlogin">
+                               <button
+                                  [disabled]="myForm.invalid"
+                                  class="botonlogin">
                                   LOGIN
                                </button>
                              </div> 
@@ -63,8 +61,11 @@
                           
                            <div class="d-flex justify-content-center pt-4">
                              <div>
-                                <a style="font-size: 0.8rem;text-decoration:underline;" 
-                                 routerLink="/auth/password">I forgot my password</a>
+                                <a
+                                 style="font-size: 0.8rem;text-decoration:underline;" 
+                                 routerLink="/auth/password">
+                                 I forgot my password
+                              </a>
                               </div>
                            </div>
 
@@ -74,7 +75,7 @@
                                  </p>
                                                
                                <div style="text-align: center;">       
-                                  <a  style="font-size: 0.8rem;"
+                                  <a style="font-size: 0.8rem;"
                                     routerLink="/auth/register">
                                     Register
                                   </a>
@@ -84,12 +85,20 @@
                         <div class="row p-2">
                            <div class="col-6">
                              <div class="float-left">
-                                <a style="font-size: 0.8rem;" href="">Terms of service</a> 
+                                <a 
+                                 style="font-size: 0.8rem;" 
+                                 routerLink="#">
+                                 Terms of service
+                              </a> 
                              </div>
                            </div>
                            <div class="col-6">
                               <div class="float-right">
-                                 <a style="font-size: 0.8rem;" href="">Privacy Policy</a>
+                                 <a 
+                                    style="font-size: 0.8rem;"
+                                    routerLink="#">
+                                    Privacy Policy
+                                 </a>
                              </div>
                            </div>
                         </div>        
@@ -97,19 +106,19 @@
            </div>
        </div>
    </div>
-</div>
+  </div>
 
 
-<div class="loginweb">
-         <div class="wrapper">
-            <div class="one" style="visibility: hidden;">
-               etete
-            </div>
+   <div class="loginweb">
+      <div class="wrapper">
+            <div class="one" style="visibility: hidden;"></div>
            <div class="two">
-            <form [formGroup]="authForm" >
+            <form [formGroup]="myForm" >
                <div class="card-body px-2">  
                     <div class="d-flex justify-content-center loginwebpr pb-0 pt-5">
-                       <h2 class="pt-3 pb-5" style="color:gray;font-weight: bold;">
+                       <h2
+                         class="pt-3 pb-5"
+                         style="color:gray;font-weight: bold;">
                          Login
                       </h2>
                     </div>
@@ -120,8 +129,7 @@
                          placeholder="Email"
                          style="font-size: 0.7rem; outline: none;"
                          type="text"
-                         class="form-control border-0 email"
-                      />    
+                         class="form-control border-0 email"/>    
                     </div>
 
                     <div class="mb-1 d-flex border p-1 rounded tamanio">  
@@ -130,8 +138,7 @@
                          style="font-size: 0.7rem; outline: none;"
                          placeholder="Password"
                          autocomplete="on"
-                         class="form-control border-0 m-0 password"    
-                      />     
+                         class="form-control border-0 m-0 password"/>     
                     </div>
 
                     <div class="row justify-content-between pb-3">
@@ -147,27 +154,28 @@
                                 Remember Me
                               </label>
                             </div>
-                      </div>
-                    
-                    </div>
-                                              
+                      </div>       
+                    </div>                               
                   </div>
-                  <div class="d-flex justify-content-center loginwebpr">
-                    
-                      <button class="botonlogin">
+
+                  <div class="d-flex justify-content-center loginwebpr">  
+                      <button 
+                        [disabled]="myForm.invalid"  
+                         class="botonlogin" (click)="login()" >
                          LOGIN
                       </button>
-                    </div> 
+                  </div> 
 
                     <div class="d-flex justify-content-center pt-5 loginwebpr">
                      <div>
-                        <a style="font-size: 0.8rem;text-decoration:underline;" 
+                        <a 
+                         style="font-size: 0.8rem;text-decoration:underline;" 
                          routerLink="/auth/password">I forgot my password</a>
                       </div>
                    </div>
 
                    <div class="pt-5 loginwebpr">
-                         <p style=" font-size: 0.8rem; text-align: center; margin-bottom: 0px;">
+                         <p style=" font-size: 0.8rem;text-align: center; margin-bottom: 0px;">
                             Don´t have an account 
                          </p>
                                        
@@ -182,7 +190,10 @@
                 <div class="row pt-4 p-2 ">
                    <div class="col-5">
                      <div class="float-left pl-5">
-                        <a style="font-size: 0.8rem;" routerLink="#">Terms of service</a> 
+                        <a style="font-size: 0.8rem;"
+                         routerLink="#">
+                         Terms of service
+                       </a> 
                      </div>
                    </div>
                    <div class="col-7">
@@ -195,7 +206,7 @@
               </form>      
             </div>
           </div>
-       </div>
-       <app-brand-area></app-brand-area>
+  </div>
+ <app-brand-area></app-brand-area>
 </main>
 <app-footer></app-footer>

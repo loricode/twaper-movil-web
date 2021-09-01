@@ -1,0 +1,18 @@
+.card-item-pasarela{
+   width: 30%;
+   border-radius: 10%;
+}
+
+
+@media (max-width: 575.98px) { 
+
+   .card-item-pasarela{
+      width: 90%;
+   }
+
+   .card-item-pasarela ul{
+      font-size: 0.7rem;
+   }
+   
+   
+}

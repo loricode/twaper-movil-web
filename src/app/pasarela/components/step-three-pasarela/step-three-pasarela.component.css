@@ -1,0 +1,23 @@
+.card-step-3-size{
+   width: 30%;
+}
+
+.custom-control P{
+   font-size: 0.7rem;
+   opacity: 0.5;
+   margin-bottom: 0%;
+}
+
+.custom-control label{
+   font-size: 0.8rem;
+   font-weight: bold;
+   opacity: 0.5;
+}
+
+
+@media (max-width: 575.98px) { 
+   .card-step-3-size{
+     width: 90%;
+   }
+
+}   

@@ -1,20 +1,50 @@
+<div class="shadow-sm">
+  <div class="container p-3">
+     <div class="row justify-content-center">
+      <div class="col-lg-4 col-sm-12">
+       <div class="row justify-content-between">
+         <div class="col-4">
+          <div class="p-3" *ngIf="!showButtonNavigate">   
+             <div type="button"  (click)="showPreviousStep()">
+                <i class="fas fa-arrow-left"></i>
+             </div>
+         </div>  
+       </div>
+          <div class="col-4 text-center">
+              <div> 
+                <img width="40" src="../../../../assets/icons/twaper_logo_08.svg" alt="iconTwaper">
+             </div>  
+          </div>   
 
-
-<div class="container pt-4">
-   
-  <div class="d-flex justify-content-center mb-4">
-    <div>
-      <img class="img-fluid" width="40" src="../../../../assets/icons/twaper_logo_08.svg" alt="ww">
-    </div> 
-  </div>
- 
-  <div class="d-flex justify-content-center"> 
+          <div class="col-4 text-right">
+            <div class="p-2" type="button" (click)=" goBack()"> 
+              <i class="fas fa-times"></i>
+           </div>  
+        </div>   
+       </div> 
+     </div>
   </div>
 </div>
-     <ng-wizard class="mycustomwizard" [config]="config" (stepChanged)="stepChanged($event)">
+</div>
+
+<!-- <div class="container pt-4">
+   
+   <div class="d-flex justify-content-center mb-4">
+     <div>
+      <img class="img-fluid" width="40" src="../../../../assets/icons/twaper_logo_08.svg" alt="ww">
+     </div> 
+    </div>
+</div> -->
+
+
+     <ng-wizard 
+      class="{{showButtonNavigate?'mycustomwizard':'ocultarbuttons'}}"
+      [config]="config" (stepChanged)="stepChanged($event)">
   
-      <ng-wizard-step [title]="'1'" 
-        [canEnter]="isValidTypeBoolean" [canExit]="isValidFunctionReturnsBoolean.bind(this)">
+      <ng-wizard-step
+        [title]="'1'" 
+        [canEnter]="isValidTypeBoolean"
+        [canExit]="isValidFunctionReturnsBoolean.bind(this)">
         <app-step-one-pasarela></app-step-one-pasarela>
       </ng-wizard-step>
    
@@ -31,7 +61,7 @@
         <app-step-four-pasarela></app-step-four-pasarela>
       </ng-wizard-step>
       
-      <ng-wizard-step [title]="'5'" >
+      <ng-wizard-step [title]="'5'">
         <app-step-five-pasarela></app-step-five-pasarela>
       </ng-wizard-step>
    

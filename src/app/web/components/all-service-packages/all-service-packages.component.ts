@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Items } from '../../../core/interfaces/items.interface';
+import { Items } from '../../../interfaces/items/item.interface';
 
 @Component({
   selector: 'app-all-service-packages',

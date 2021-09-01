@@ -1,0 +1,64 @@
+::-webkit-input-placeholder { color: #B4BBCB; } 
+
+.fondoCajaText{
+   width: 30%;
+   border-radius: 16px;
+   background: rgb(95,194,245);
+   background: linear-gradient(100deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   opacity: 0.8;
+   border: 3px solid white;
+}
+
+.cajaText:disabled{
+   background-color: #FFF;
+   text-align: center;
+   width: 84%; 
+}
+
+.txtinput{
+   background-color: #FFF;
+   width: 100%;  
+}
+
+.sin-decoration:hover{
+   text-decoration: none;
+}
+
+.titulo{
+   width: 30%;
+}
+
+.textoGrande p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #000;
+  opacity: 0.6;
+  margin-bottom: 0%;
+}
+
+.form-size{
+  width: 30%;
+}
+
+@media (max-width: 575.98px) { 
+   
+   .card-step-3-size{
+     width: 90%;
+   }
+
+   .fondoCajaText{
+      width: 100%;
+      border-radius: 16px;
+      background: rgb(95,194,245);
+      background: linear-gradient(100deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+      opacity: 0.8;
+      border: 3px solid white;
+   }
+   
+   .form-size{ width: 100%; }
+
+   .titulo{
+      width: 100%;
+   }
+
+}  

@@ -6,9 +6,9 @@ import { HomePasarelaComponent } from './pages/home-pasarela/home-pasarela.compo
 const routes: Routes = [
   {
     path:'',
+    component:HomePasarelaComponent,
     children:[
-      { path:'home', component:HomePasarelaComponent },
-      { path:'', redirectTo:'home'}
+      { path:'', redirectTo:''}
     ]
   }
 

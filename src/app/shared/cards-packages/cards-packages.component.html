@@ -15,7 +15,6 @@
       </div>
 
     <div class="row">
-    
       <div class="col-md-4 col-sm-4" *ngFor="let paquete of paquetes">
          <div class="imagen-paquete" style="background-image: url({{image}});">
             <div class="{{cardStyle}}">
@@ -54,123 +53,13 @@
                   </ul>
                </div>
                <div class ="reels-sale">
-                  <p type="button" (click)="payPackage()">{{ 'CARD_BUTTON' | translate }}</p>
-                </div>   
-         </div> 
-      </div>
-     
-
-<!-- 
-        <div class="col-md-4 col-sm-4">
-         <div  class="imagen-paquete" style="background-image: url({{image}});">
-            <div class="{{cardStyle}}">
-               <div class="reels-title">
-                  <h4>{{oneCardInfo}}</h4>     
-               </div>
-               <div class="reels-price" >
-                  <h4>{{oneCardPrice}}<br>
-                     <p class="month">
-                       {{cardMonth}}
-                     </p>
-                  </h4>
-               </div>
-               <div class="reels-content">
-                  <ul>
-                     <li class="{{fontStyle}}">
-                      {{oneCardItemOne}}
-                     </li>
-                     <li>{{cardItemTwo}}</li>
-                     <li class="{{fontStyle}}" >
-                        {{oneCardItemThree}}
-                     </li>
-                     <li>{{cardItemFour}}</li>
-                     <li>{{cardItemFive}}</li>
-                     <li>{{cardItemSix}}</li>
-                     <li>{{cardItemSeven}}</li>
-                     <li class="{{cardItemEight !=='' ? 'mostrar' : 'ocultar'}}" >{{cardItemEight}}</li>
-                  </ul>
-               </div>
-               <div class ="reels-sale">
-                  <p type="button" (click)="payPackage()">{{ 'CARD_BUTTON' | translate }}</p>
-                </div>
-            </div>
-         </div>
-      </div>
-     
-     <div class="col-md-4">
-      <div class="imagen-paquete" style="background-image: url({{image}});">
-         <div class="{{cardStyle}}" style="height: 500px;">
-            <div class="reels-title">
-               <h4>{{twoCardInfo}}</h4>     
-            </div>
-            <div class="reels-price" >
-               <h4> {{twoCardPrice}} <br>
-                  <p class="month">
-                     {{cardMonth}}
+                  <p type="button" (click)="payPackage()">
+                     {{ 'CARD_BUTTON' | translate }}
                   </p>
-               </h4>
-            </div>
-            <div class="reels-content">
-               <ul>
-                  <li class="{{fontStyle}}">{{twoCardItemOne}}</li>
-                  <li > {{cardItemTwo}}</li>
-                  <li class="{{fontStyle}}">
-                    {{twoCardItemThree}}
-                  </li>
-                  <li>{{cardItemFour}}</li>
-
-                  <li>{{cardItemFive}}</li>
-                  <li >{{cardItemSix}}</li>
-                  <li>{{cardItemSeven}}</li>
-               
-             
-
-               </ul>
-            </div>
-            <div class ="reels-sale">
-               <p type="button" (click)="payPackage()">{{ 'CARD_BUTTON' | translate }}</p>
-             </div>
-         </div>
-      </div>
-   </div>
-
-
-  <div class="col-md-4">
-   <div class="imagen-paquete" style="background-image: url({{image}});">
-      <div class="{{cardStyle}}">
-         <div class="reels-title">
-            <h4>{{threeCardInfo}}</h4>     
-         </div>
-         <div class="reels-price">
-            <h4>{{threeCardPrice}}<br>
-               <p class="month">
-                  {{cardMonth}}
-               </p>
-            </h4>
-        
-         </div>
-       
-         <div class="reels-content">
-            <ul>
-               <li class="{{fontStyle}}">{{threeCardItemOne}}</li>
-               <li>{{cardItemTwo}}</li>
-               <li  class="{{fontStyle}}">{{threeCardItemThree}}</li>
-               <li>{{cardItemFour}}</li>
-               <li>{{cardItemFive}}</li>
-               <li>{{cardItemSix}}</li>
-               <li>{{cardItemSeven}}</li>
-            </ul>
-         </div>
-         <div class ="reels-sale">
-            <p type="button" (click)="payPackage()">{{ 'CARD_BUTTON' | translate }}</p>
-          </div>
-      </div>
-   </div>
-</div> -->
-
-       
-   
+                </div>   
+          </div> 
+        </div>
       </div> 
+     </div>
    </div>
 </div>
-

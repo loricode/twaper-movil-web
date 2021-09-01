@@ -272,14 +272,12 @@ body::-webkit-scrollbar-thumb:active {
    display: none;
 }
 
+/* comienzo del media de 957px */
 @media (max-width: 957px) {   
-   .loginmovil{
-      display: inline-block;
-   }
-   .loginweb{
-     display: none;
-   }
-}
+   .loginmovil{ display: inline-block; }
+   .loginweb{ display: none; }
+} 
+/* fin del media de 957px */
 
 .scrollbar-hidden {
    -ms-overflow-style: none;
@@ -287,7 +285,210 @@ body::-webkit-scrollbar-thumb:active {
  }
 
 
- @media (max-width: 575.98px) {
+.dropdown-menu {
+   position: absolute;
+   top: 120%;
+   left: -120% !important;
+   z-index: 1000;
+   display: none;
+   float: right;
+   min-width: 4rem !important;
+   padding: .5rem 0;
+   margin: .125rem 0 0;
+   font-size: 1rem;
+   color: #212529;
+   text-align: left;
+   list-style: none;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid rgba(0,0,0,.15);
+   border-radius: .25rem;
+}
+
+/* linea con el gradiente azul y fucsia */
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor:before {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   bottom: 0;
+   width: 100%;
+   height: 8px;
+   background: rgb(95,194,245);
+   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   border-radius: 3px;
+   z-index: 0;
+}
+
+/* linea con el gradiente azul y fucsia */
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor:before {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   bottom: 0;
+   width: 100%;
+   height: 8px;
+   background: rgb(95,194,245);
+   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   border-radius: 3px;
+   z-index: 0;
+}
+
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a:hover {
+   color: #bbb;
+   background: #f5f5f5;
+   border-width: 0px !important;
+}
+
+/* step activo */
+.ng-wizard-theme-circles>ul.step-anchor>li.active>a {
+   border-color:#fff !important;
+   color: #fff;
+   background: #22dffc !important;
+}
+
+
+
+.ng-wizard-theme-circles>ul.step-anchor>li.done>a {
+   border: none;
+   color: #fff;
+   background: #22dffc !important;
+}
+
+.mycustomwizard  .justify-content-end {
+   -ms-flex-pack: end!important;
+   justify-content: space-around!important;
+}
+
+.mycustomwizard .btn-group .btn-group-vertical {
+   position: relative;
+   display: -ms-inline-flexbox;
+   display: block;
+}
+
+/* boton con el text Back de pasarela */
+.mycustomwizard .ng-wizard-btn-prev {
+   margin-left: 2%;
+   margin-right: 120px;  
+   padding: 5px 42px;
+   border-radius: 10px;
+   color: #0a0a0a;
+   background-color: #939494;
+   opacity: 0.5;
+   border: none;
+   font-weight: bold;
+}
+
+.mycustomwizard  .ng-wizard-btn-next{
+   background-color: #22dffc;
+   padding: 5px 42px;
+   border-radius: 10px;
+   border: none;
+   font-weight: bold;
+}
+
+.mycustomwizard  .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+   border-top-right-radius: 12px;
+   border-bottom-right-radius: 12px;
+}
+
+.mycustomwizard  .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+   border-top-left-radius:12px;
+   border-bottom-left-radius: 12px;
+}
+
+.mycustomwizard .ng-wizard-theme-circles > ul{ 
+   margin-top: 0;
+   margin-bottom: 1rem;
+   text-align: center !important;
+   justify-content: center !important;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li {
+   border: none;
+   margin-left: 25px;
+   z-index: 98;
+}
+
+.mycustomwizard  .ng-wizard-theme-circles .ng-wizard-toolbar {
+   background: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 5% !important;
+}
+
+.ocultarbuttons .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+   border-top-left-radius:12px;
+   border-bottom-left-radius: 12px;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles > ul{ 
+   margin-top: 0;
+   margin-bottom: 1rem;
+   text-align: center !important;
+   justify-content: center !important;
+}
+
+.ocultarbuttons  .ng-wizard-theme-circles>ul.step-anchor>li {
+   border: none;
+   margin-left: 25px;
+   z-index: 98;
+}
+
+.ocultarbuttons  .ng-wizard-theme-circles .ng-wizard-toolbar {
+   background: #fff;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-bottom: 5% !important;
+}
+
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border:none !important;
+   background: #f5f5f5;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   padding: 15px 0;
+   border-radius: 50%;
+   box-shadow:none !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border:none !important;
+   background: #f5f5f5;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   padding: 15px 0;
+   border-radius: 50%;
+   box-shadow:none !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor {
+   position: relative;
+   background: #fff;
+   border: none;
+   list-style: none;
+   margin-bottom: 20px;
+}
+
+.ocultarbuttons  .ng-wizard-btn-prev {
+   display: none;
+}
+
+.ocultarbuttons  .ng-wizard-btn-next{
+   display: none;
+}
+
+@media (max-width: 575.98px) {
 
    .movil-organize-show-carousel .carousel-arrows .carousel-arrow-prev{
       left: 27% !important;
@@ -411,6 +612,176 @@ body::-webkit-scrollbar-thumb:active {
    box-shadow: 0 0 5px rgba(0,0,0,.15);
 }
 
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor:before {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   bottom: 0;
+   width: 100%;
+   height: 4px;
+   background: rgb(95,194,245);
+   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   border-radius: 3px;
+   z-index: 0;
+}
+
+.ng-wizard-theme-circles .ng-wizard-container {
+   min-height: 300px;
+   width: 100%;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor:before {
+   content: " ";
+   position: absolute;
+   top: 50%;
+   bottom: 0;
+   width: 100%;
+   height: 4px;
+   background: rgb(95,194,245);
+   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
+   border-radius: 3px;
+   z-index: 0;
+}
+
+
+.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border:none !important;
+   background: #f5f5f5;
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 50%;
+   box-shadow:none !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+}
+
+/* boton con el text Back de pasarela */
+.mycustomwizard  .ng-wizard-btn-prev {
+   margin-left: 2%;
+   margin-right: 70px;  
+   padding: 5px 42px;
+   border-radius: 10px;
+   color: #0a0a0a;
+   background-color: #939494;
+   opacity: 0.5;
+   border: none;
+   font-weight: bold;
+}
+
+.ocultarbuttons .ng-wizard-btn-prev {
+   margin-left: 2%;
+   margin-right: 70px;  
+   padding: 5px 42px;
+   border-radius: 10px;
+   color: #0a0a0a;
+   background-color: #939494;
+   opacity: 0.5;
+   border: none;
+   font-weight: bold;
+}
+
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border:none !important;
+   background: #f5f5f5;
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   padding: 10px 0;
+   border-radius: 50%;
+   box-shadow:none !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border: 2px solid #f5f5f5;
+   background: #f5f5f5;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   padding: 20px 0;
+   border-radius: 50%;
+   box-shadow: inset 0px 0px 0px 3px #fff !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+   background: #f5f5f5;
+   line-height: 1;
+}
+
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor>li>a {
+   border: 2px solid #f5f5f5;
+   background: #f5f5f5;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   padding: 20px 0;
+   border-radius: 50%;
+   box-shadow: inset 0px 0px 0px 3px #fff !important;
+   text-decoration: none;
+   outline-style: none;
+   z-index: 99;
+   color: #bbb;
+   background: #f5f5f5;
+   line-height: 1;
+}
+
+
+.ocultarbuttons  .ng-wizard-btn-prev {
+   display: none;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor>li {
+   border: none;
+   margin-left: 20px;
+   z-index: 98;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles .ng-wizard-toolbar {
+   background: #fff;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-bottom: 5% !important;
+}
+
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor {
+   position: relative;
+   background: #fff;
+   border: none;
+   list-style: none;
+   margin-bottom: 16px;
+}
+
+
+/* ancho de los items 1, 2, 3, 4, 5 */
+.ocultarbuttons .ng-wizard-theme-circles>ul.step-anchor>li {
+   border: none;
+   margin-left: 20px;
+   z-index: 98;
+}
+
+.mycustomwizard .ng-wizard-theme-circles .ng-wizard-toolbar {
+   background: #fff;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-bottom: 5% !important;
+}
+
+.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor {
+   position: relative;
+   background: #fff;
+   border: none;
+   list-style: none;
+   margin-bottom: 16px;
+}
 
 
 }
@@ -445,137 +816,4 @@ body::-webkit-scrollbar-thumb:active {
       cursor: pointer;
       box-shadow: 0 0 5px rgba(0,0,0,.15);
    }
-}
-
-
-.dropdown-menu {
-   position: absolute;
-   top: 120%;
-   left: -120% !important;
-   z-index: 1000;
-   display: none;
-   float: right;
-   min-width: 4rem !important;
-   padding: .5rem 0;
-   margin: .125rem 0 0;
-   font-size: 1rem;
-   color: #212529;
-   text-align: left;
-   list-style: none;
-   background-color: #fff;
-   background-clip: padding-box;
-   border: 1px solid rgba(0,0,0,.15);
-   border-radius: .25rem;
-}
-
-
-.mycustomwizard .ng-wizard-theme-circles>ul.step-anchor:before {
-   content: " ";
-   position: absolute;
-   top: 50%;
-   bottom: 0;
-   width: 100%;
-   height: 8px;
-   background: rgb(95,194,245);
-   background: linear-gradient(257deg, rgba(95,194,245,1) 38%, rgba(245,95,219,1) 70%);
-   border-radius: 3px;
-   z-index: 0;
-}
-
-.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a:hover {
-   color: #bbb;
-   background: #f5f5f5;
-   border-width: 0px !important;
-}
-
-.ng-wizard-theme-circles>ul.step-anchor>li.active>a {
-   border-color:#fff !important;
-   color: #fff;
-   background: #22dffc !important;
-}
-
-.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li>a {
-   border:none !important;
-   background: #f5f5f5;
-   width: 50px;
-   height: 50px;
-   text-align: center;
-   padding: 17px 0;
-   border-radius: 50%;
-   box-shadow:none !important;
-   text-decoration: none;
-   outline-style: none;
-   z-index: 99;
-   color: #bbb;
-}
-
-
-.ng-wizard-theme-circles>ul.step-anchor>li.done>a {
-   border-color: #5cb85c;
-   color: #fff;
-   background: #B125EC !important;
-}
-
-.mycustomwizard  .justify-content-end {
-   -ms-flex-pack: end!important;
-   justify-content: space-around!important;
-}
-
-.mycustomwizard  .btn-group .btn-group-vertical {
-   position: relative;
-   display: -ms-inline-flexbox;
-   display: block;
-}
-
-.mycustomwizard .ng-wizard-btn-prev {
-   margin-left: 2%;
-   margin-right: 180px;  
-   padding: 5px 50px;
-   border-radius: 10px;
-   color: #0a0a0a;
-   background-color: #939494;
-   opacity: 0.5;
-   border: none;
-   font-weight: bold;
-}
-
-.mycustomwizard  .ng-wizard-btn-next{
-   background-color: #22dffc;
-   padding: 5px 50px;
-   border-radius: 10px;
-   border: none;
-   font-weight: bold;
-}
-/* .mycustomwizard  .mr-2 {
-   margin-right: 2rem!important;
-} */
-
-.mycustomwizard  .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
-   border-top-right-radius: 12px;
-   border-bottom-right-radius: 12px;
-}
-
-.mycustomwizard  .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
-   border-top-left-radius:12px;
-   border-bottom-left-radius: 12px;
-}
-
-.mycustomwizard .ng-wizard-theme-circles > ul{ 
-      margin-top: 0;
-      margin-bottom: 1rem;
-      text-align: center !important;
-      justify-content: center !important;
-}
-
-.mycustomwizard  .ng-wizard-theme-circles>ul.step-anchor>li {
-   border: none;
-   margin-left: 25px;
-   z-index: 98;
-}
-
-.mycustomwizard  .ng-wizard-theme-circles .ng-wizard-toolbar {
-   background: #fff;
-   padding-left: 10px;
-   padding-right: 10px;
-   margin-bottom: 5% !important;
 }

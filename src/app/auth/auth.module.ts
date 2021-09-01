@@ -23,7 +23,6 @@ import { RecoverPasswordComponent } from './recover-password/recover-password.co
     ReactiveFormsModule,
     SharedModule,
     RouterModule,
- 
   ]
 })
 export class AuthModule { }
